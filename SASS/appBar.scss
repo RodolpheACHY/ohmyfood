@@ -1,0 +1,110 @@
+.appBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  padding: 0px 0 16px 0px;
+}
+
+.appBar__logo {
+  width: 3.813rem;
+  height: 1.188rem;
+  /* padding: 50px 30px 50px 30px; */
+  top: 0;
+  left: 0;
+  margin: 20px 0 0 0;
+  padding: 0;
+  align-items: center;
+}
+
+.appBar__nav {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+  list-style-type: none;
+  
+  
+}
+
+.appBar__li:first-child {
+  margin-right: 40px;
+}
+
+.appBar__navItem {
+  font-family: var(--title-font);
+  font-style: normal;
+  font-weight: var(--title-font-weight);
+  font-size: var(--title-font-size);
+  line-height: var(--title-line-height);
+  color: var(--black);
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 0;
+  padding-top: 14px;
+  border-top: 2px solid transparent;
+  
+}
+.appBar__navItem:hover, .appBar__navItem.active {
+  color: var(--main-color);
+  border-top-color: var(--main-color);
+}
+
+li a {
+  display: block; /* Convertit le lien en élément de bloc */
+}
+
+@media (max-width: 768px) {  
+  .appBar {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    padding: 30px 0px;
+  }
+
+  .appBar__logo {
+    width: 3.813rem;
+    height: 1.188rem;
+    /* padding: 50px 30px 50px 30px; */
+    top: 0;
+    left: 0;
+    margin-bottom: 30px;
+    align-items: center;
+  }
+
+  .appBar__navWrapper {
+    width: 100%;
+  }
+  .appBar__li {
+    width: 50%;
+    margin: 0;
+  }
+  .appBar__li:first-child {
+    margin: 0;
+  }
+  .appBar__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .appBar__navItem {
+    margin-right: 0px;
+    flex:1;
+    text-align: center;
+    border-bottom: 2px solid transparent;
+    border-top: none;
+    padding-bottom: 15px;
+    border-color: #f2f2f2;
+  }
+
+  .appBar__navItem:hover,
+  .appBar__navItem.active {
+  color: var(--main-color);
+  border-bottom-color: var(--main-color);
+  }
+
+  
+}
