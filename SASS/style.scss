@@ -1,9 +1,9 @@
 /* Modules */
-@import 'sections/appBar.css';
-@import 'sections/recherches-and-filtres.css';
-@import 'sections/hebergements-and-populaires.css';
-@import 'sections/activites.css';
-@import 'sections/footer.css';
+@import './appBar.scss';
+@import './hero.scss';
+@import './fonctionnement.scss';
+@import './restaurants.scss';
+@import '/footer.scss';
 
 /****** General ***********/
 /* Fonts*/
