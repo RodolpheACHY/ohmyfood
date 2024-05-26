@@ -3,22 +3,29 @@
 @import './hero.scss';
 @import './fonctionnement.scss';
 @import './restaurants.scss';
-@import '/footer.scss';
+@import './footer.scss';
 
 /****** General ***********/
 /* Fonts*/
 * {
  font-family: 'Roboto', sans-serif;
  box-sizing: border-box;
+ color: black;
 }
 
 
 /* Design System*/
 :root {
  /* Colors */
- --main-color: #0065FC;
- --main-bg-color: #F2F2F2;
- --filter-bg-color: #DEEBFF;
+ --main-color: #9356DC;
+ --main-bg-color: #F6F6F6;
+ --secondary-bg-color: #ffffff;
+ --secondary-gradient-button-color: #FF79DA;
+ --footer-bg-color: #353535;
+ --appBar-localisation-bg-color: #EAEAEA;
+ --validate-menu-color: #99E2D0;
+ --font-overlay-color: #008766;
+ --icon-functioning-color: #7E7E7E;
 
  /* Text Configuration*/
  --body-font-weight: 400;
