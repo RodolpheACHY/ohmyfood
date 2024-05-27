@@ -10,6 +10,7 @@
 
 .appBar__logo {
   font-family: var(--logo-font-family);
+  font-size: var(--logo-font-size);
   width: 3.813rem;
   height: 1.188rem;
   /* padding: 50px 30px 50px 30px; */
