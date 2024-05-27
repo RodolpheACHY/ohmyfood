@@ -210,14 +210,17 @@ li a {
   --body-highlight-font-weight: 400;
   --header-font-weight: 400;
   --title-font-weight: 400;
+  --logo-font-weight: 400;
   --body-font-size: 1rem;
   --body-highlight-font-size: 1.25rem;
   --header-font-size: 1rem;
   --title-font-size: 1.375rem;
+  --logo-font-size: 1.875rem
   --body-line-height: 1.5rem;
   --body-highlight-line-height: 1.5rem;
   --header-line-height: 1.188rem;
   --title-line-height: 1.75rem;
+  --logo-line-height: 1.5rem;
   --overline-offset: 1.125rem;
   --decoration-thickness: 0.188rem;
 }
