@@ -75,6 +75,8 @@ li a {
     margin-top: 14px;
     margin-bottom: 13px;
     align-items: center;
+    justify-content: center;
+    display: flex;
   }
   .appBar__localisation {
     display: flex;
@@ -106,6 +108,9 @@ li a {
     color: var(--footer-bg-color);
     border: none;
     width: 130px;
+  }
+  input::placeholder {
+    color: var(--footer-bg-color);
   }
   .appBar__navItem {
     margin-right: 0px;
@@ -210,21 +215,21 @@ li a {
   --font-overlay-color: #008766;
   --icon-functioning-color: #7E7E7E;
   /* Text Configuration*/
+  --logo-font-weight: 400;
   --body-font-weight: 400;
   --body-highlight-font-weight: 400;
   --header-font-weight: 400;
   --title-font-weight: 400;
-  --logo-font-weight: 400;
+  --logo-font-size: 1.875rem;
   --body-font-size: 1rem;
   --body-highlight-font-size: 1.25rem;
   --header-font-size: 1rem;
   --title-font-size: 1.375rem;
-  --logo-font-size: 1.75rem
+  --logo-line-height: 1.5rem;
   --body-line-height: 1.5rem;
   --body-highlight-line-height: 1.5rem;
   --header-line-height: 1.188rem;
   --title-line-height: 1.75rem;
-  --logo-line-height: 1.5rem;
   --logo-font-family: "Shrikhand", sans-serif;
   --title-font-family: "Shrikhand", sans-serif;
 }
