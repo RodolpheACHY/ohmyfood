@@ -140,8 +140,9 @@ li a {
     max-width: 275px;
     height: 68px;
     margin-top: 39px;
-    margin-right: 42px;
+    margin-left: 42px;
     margin-right: 58px;
+    margin-bottom: 0;
   }
 }
 .footer {
