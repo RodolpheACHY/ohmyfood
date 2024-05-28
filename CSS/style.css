@@ -60,6 +60,11 @@ li a {
     align-self: flex-start;
   }
   .appBar__container-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
   }
   .appBar__logo {
