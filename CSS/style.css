@@ -128,6 +128,9 @@ li a {
 }
 @media (max-width: 768px) {
   .hero__content {
+    background-color: #F6F6F6;
+  }
+  .hero__content {
     display: flex;
     flex-direction: column;
     align-items: center;
