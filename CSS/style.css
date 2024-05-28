@@ -139,6 +139,7 @@ li a {
     line-height: var(--title-line-height);
     max-width: 275px;
     height: 68px;
+    margin-top: 39px;
   }
 }
 .footer {
