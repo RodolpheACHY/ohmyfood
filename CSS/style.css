@@ -144,6 +144,14 @@ li a {
     margin-right: 58px;
     margin-bottom: 0;
   }
+  .hero__description {
+    font-size: var(body-highlight-font-size);
+    font-weight: var(--body-highlight-font-weight);
+    line-height: var(body-highlight-line-height);
+    color: var(--footer-bg-color);
+    width: 100%;
+    height: 46px;
+  }
 }
 .footer {
   background-color: var(--main-bg-color);
