@@ -1,5 +1,11 @@
 
-@media (max-width: 768px) {  
+@media (max-width: 768px) { 
+    
+ .functioning__content {
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+
  .functioning__title {
     font-size: var(--title-font-size);
     font-weight: var(--title-font-weight);
