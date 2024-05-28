@@ -25,8 +25,10 @@
     line-height: var(--body-highlight-line-height);
     font-style: normal;
     color: var(--footer-bg-color);
-    width: 100%;
+    max-width: 315px;
     height: 46px;
+    margin-left: 34px;
+    margin-right: 26px;
    }
     
   }
