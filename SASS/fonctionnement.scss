@@ -25,6 +25,10 @@
  }
 
  .functioning__button-item {
+    font-weight: var(--body-font-weight);
+    line-height: var(--body-line-height);
+    font-size: var(--body-font-size);
+    font-style: normal;
     width: 322.486px;
     height: 72.379px;
     background-color: var(--main-bg-color);
