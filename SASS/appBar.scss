@@ -51,7 +51,7 @@ li a {
   display: block; /* Convertit le lien en élément de bloc */
 }
 
-@media (max-width: 768px) {  
+
   .appBar {
     justify-content: center;
     align-items: center;
@@ -141,6 +141,3 @@ li a {
   color: var(--main-color);
   border-bottom-color: var(--main-color);
   }
-
-  
-}
