@@ -203,6 +203,7 @@ li a {
     width: 322.486px;
     height: 72.379px;
     background-color: var(--main-bg-color);
+    border-radius: 20px;
   }
 }
 .footer {
