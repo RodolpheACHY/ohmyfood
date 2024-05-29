@@ -258,6 +258,18 @@ input::placeholder {
   position: absolute;
 }
 
+.functioning__button-icon--purple {
+  width: 13.019px;
+  height: 19.903px;
+  font-size: 20px;
+  bottom: 28px;
+  top: 25px;
+  left: 33px;
+  right: 276px;
+  position: absolute;
+  color: var(--main-color);
+}
+
 .restaurants__card img {
   max-width: 100%;
 }
