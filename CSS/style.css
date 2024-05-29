@@ -240,6 +240,7 @@ input::placeholder {
   font-style: normal;
   width: 211px;
   height: 15.67px;
+  position: absolute;
 }
 
 .restaurants__card img {
