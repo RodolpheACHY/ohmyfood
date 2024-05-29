@@ -4,6 +4,9 @@
  .functioning__content {
     margin-left: 20px;
     margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 24.94px;
  }
 
  .functioning__title {
