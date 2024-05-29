@@ -241,6 +241,10 @@ input::placeholder {
   width: 211px;
   height: 15.67px;
   position: absolute;
+  bottom: 28px;
+  right: 38px;
+  left: 73px;
+  top: 28px;
 }
 
 .restaurants__card img {
