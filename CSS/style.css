@@ -376,7 +376,7 @@ ul li.no_margin-bottom {
 }
 
 .fa-solid {
-  color: var(--footer-bg-color);
+  color: var(--icon-functioning-color);
 }
 
 body {
