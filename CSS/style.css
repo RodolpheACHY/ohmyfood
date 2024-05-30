@@ -300,6 +300,8 @@ input::placeholder {
 .restaurants {
   background-color: var(--main-bg-color);
   padding-top: 54px;
+  padding-left: 17px;
+  padding-right: 18px;
 }
 
 .restaurants__card img {
