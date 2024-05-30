@@ -214,13 +214,13 @@ input::placeholder {
   margin: 48px 60px 26px 0px;
 }
 
-.functioning__buttons {
+.functioning__articles {
   display: flex;
   flex-direction: column;
   gap: 24.94px;
 }
 
-.functioning__button-item {
+.functioning__article-item {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -233,7 +233,7 @@ input::placeholder {
   position: relative;
 }
 
-.functioning__button-text {
+.functioning__article-text {
   font-weight: var(--body-font-weight);
   line-height: var(--body-line-height);
   font-size: var(--body-font-size);
@@ -247,7 +247,7 @@ input::placeholder {
   top: 28px;
 }
 
-.functioning__button-icon {
+.functioning__article-icon {
   width: 13.019px;
   height: 19.903px;
   font-size: 20px;
@@ -258,7 +258,7 @@ input::placeholder {
   position: absolute;
 }
 
-.functioning__button-icon--purple {
+.functioning__article-icon--purple {
   width: 13.019px;
   height: 19.903px;
   font-size: 20px;
@@ -270,7 +270,7 @@ input::placeholder {
   color: var(--main-color);
 }
 
-.functioning__button-number {
+.functioning__article-number {
   font-weight: var(--body-font-weight);
   line-height: var(--number-step-line-height);
   font-size: var(--number-step-font-size);
@@ -282,7 +282,7 @@ input::placeholder {
   position: absolute;
 }
 
-.functioning__button-circle {
+.functioning__article-circle {
   width: 24px;
   height: 24px;
   background-color: var(--main-color);
