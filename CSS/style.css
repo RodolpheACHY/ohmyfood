@@ -283,6 +283,18 @@ input::placeholder {
   left: 4.51px;
   right: 311.73px;
   position: absolute;
+  z-index: 2;
+}
+
+.functioning__button-circle {
+  width: 24px;
+  height: 24px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  border: none;
+  bottom: 21.52px;
+  right: 311px;
+  position: absolute;
 }
 
 .restaurants__card img {
