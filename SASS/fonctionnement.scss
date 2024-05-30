@@ -37,8 +37,12 @@
    position : relative;
 }
 
+.functioning__article-item:last-child {
+    margin-bottom: 68px;
+}
+
 .functioning__article-text {
-    font-weight: var(--body-font-weight);
+    //font-weight: var(--body-font-weight);
     line-height: var(--body-line-height);
     font-size: var(--body-font-size);
     font-style: normal;
@@ -48,7 +52,7 @@
     bottom: 28px;
     right: 38px;
     left: 73px;
-    top: 28px
+    top: 13px
 }
 
 .functioning__article-icon {
