@@ -5,8 +5,22 @@
     padding-right: 18px;
 }
 
+.restaurants__card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+ // max-width: 340px;
+ // height: 251px;
+    border-radius: 15px;
+    background: var(--secondary-bg-color);
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.10);
+    overflow: hidden;
+}
+
 .restaurants__card img {
     max-width: 100%;
+    height: 231px;
+    border-radius: 15px 15px 0px 0px;
 }
 
 .restaurants__title {
