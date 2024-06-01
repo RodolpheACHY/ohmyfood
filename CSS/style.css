@@ -328,6 +328,23 @@ input::placeholder {
   border-radius: 15px 15px 0px 0px;
 }
 
+.restaurants__card-content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 16px;
+  padding-left: 13px;
+  padding-bottom: 12px;
+}
+
+.restaurants__card-title {
+  width: 267px;
+  height: 20px;
+  font-size: var(--body-highlight-font-size);
+  font-weight: var(--title-font-weight);
+  line-height: var(--body-highlight-line-height);
+  font-style: normal;
+}
+
 .restaurants__title {
   margin-top: 0px;
 }
