@@ -306,6 +306,10 @@ input::placeholder {
   padding-right: 18px;
 }
 
+.restaurants__title {
+  margin-top: 0px;
+}
+
 .restaurants__cards {
   display: flex;
   flex-direction: column;
@@ -346,8 +350,11 @@ input::placeholder {
   margin-bottom: 5px;
 }
 
-.restaurants__title {
+.restaurants__card-subtitle {
+  width: 247px;
+  height: 24px;
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .footer {
