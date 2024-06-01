@@ -1,4 +1,6 @@
 .restaurants {
+    display: flex;
+    flex-direction: column;
     background-color: var(--main-bg-color);
     padding-top: 54px;
     padding-left: 17px;
