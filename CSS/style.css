@@ -408,6 +408,7 @@ input::placeholder {
   color: transparent; /* Pour éviter de superposer les couleurs */
   background: var(--gradient-color);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
