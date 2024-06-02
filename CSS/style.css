@@ -355,6 +355,10 @@ input::placeholder {
   height: 24px;
   margin-top: 0px;
   margin-bottom: 0px;
+  font-size: var(--body-paragraph-font-size);
+  font-weight: var(--body-paragraph-font-weight);
+  line-height: var(--body-paragraph-line-height);
+  font-style: normal;
 }
 
 .footer {
