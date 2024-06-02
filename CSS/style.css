@@ -396,6 +396,21 @@ input::placeholder {
   transform-origin: center; /* Maintient l'icône au centre pendant le redimensionnement */
 }
 
+.fa-solid-heart-restaurants {
+  font-weight: 900;
+  font-family: "Font Awesome 6 Free";
+  -webkit-font-smoothing: antialiased;
+  display: var(--fa-display, inline-block);
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+  color: transparent; /* Pour éviter de superposer les couleurs */
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .footer {
   background-color: var(--main-bg-color);
   /* color: #fff; */
@@ -489,6 +504,9 @@ ul li.no_margin-bottom {
   --validate-menu-color: #99E2D0;
   --font-overlay-color: #008766;
   --icon-functioning-color: #7E7E7E;
+  --color-start: #9356DC ;
+  --color-end: #FF79DA;
+  --gradient-color: linear-gradient(135deg, var(--color-start), var(--color-end));
   /* Text Configuration*/
   --logo-font-weight: 400;
   --body-font-weight: 500;
