@@ -30,6 +30,10 @@
     position : relative;
 }
 
+.restaurants__cards:last-child {
+    margin-bottom: 66px;
+}
+
 .restaurants__card img {
     max-width: 100%;
     height: 231px;
@@ -118,3 +122,4 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
