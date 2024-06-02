@@ -91,7 +91,14 @@
     font-weight: var(--body-paragraph-font-weight);
     line-height: var(--body-paragraph-line-height);
     font-style: normal;
-
 }
 
-
+.restaurants__heart-icon {
+    width: 22px;
+    height: 21px;
+    position : absolute;
+    right: 25px;
+    bottom: 33px;
+    transform: scale(3); /* Ajustez l'échelle selon vos besoins */
+    transform-origin: center; /* Maintient l'icône au centre pendant le redimensionnement */
+}
