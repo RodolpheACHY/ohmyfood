@@ -342,10 +342,16 @@ input::placeholder {
   position: absolute;
   top: 13px;
   right: 12px;
-  /* font-size: var(--title-font-size);
-  font-weight: var(--title-font-weight);
-  line-height: var(--title-line-height);
-  font-style: normal; */
+}
+
+.restaurants__img-label-overlay {
+  width: 61.37px;
+  color: var(--font-overlay-color);
+  text-align: center;
+  font-size: var(--body-text-overlay-font-size);
+  font-weight: var(--body-text-overlay-font-weight);
+  line-height: var(--body-text-overlay-line-height);
+  font-style: normal;
 }
 
 .restaurants__card-content {
