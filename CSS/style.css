@@ -456,18 +456,21 @@ ul li.no_margin-bottom {
   --body-highlight-font-weight: 300;
   --header-font-weight: 400;
   --title-font-weight: 700;
+  --body-paragraph-font-weight: 300;
   --logo-font-size: 1.875rem;
   --body-font-size: 1rem;
   --body-highlight-font-size: 1.125rem;
   --header-font-size: 1rem;
   --title-font-size: 1.5rem;
   --number-step-font-size: 0.886rem;
+  --body-paragraph-font-size: 1.063rem;
   --logo-line-height: 1.5rem;
   --body-line-height: 1.188rem;
   --body-highlight-line-height: 1.313rem;
   --header-line-height: 1.188rem;
   --title-line-height: 1.75rem;
   --number-step-line-height: 1.063rem;
+  --body-paragraph-line-height: 1.25rem;
   --logo-font-family: "Shrikhand", sans-serif;
   --title-font-family: "Shrikhand", sans-serif;
 }
