@@ -392,7 +392,7 @@ input::placeholder {
   position: absolute;
   right: 25px;
   bottom: 33px;
-  transform: scale(3); /* Ajustez l'échelle selon vos besoins */
+  transform: scale(1.5); /* Ajustez l'échelle selon vos besoins */
   transform-origin: center; /* Maintient l'icône au centre pendant le redimensionnement */
 }
 
