@@ -333,7 +333,7 @@ input::placeholder {
   border-radius: 15px 15px 0px 0px;
 }
 
-.restaurants__overlay {
+.restaurants__img-overlay {
   width: 80px;
   height: 29px;
   border-radius: 2px;
@@ -477,6 +477,7 @@ ul li.no_margin-bottom {
   --header-font-weight: 400;
   --title-font-weight: 700;
   --body-paragraph-font-weight: 300;
+  --body-text-overlay-font-weight: 500;
   --logo-font-size: 1.875rem;
   --body-font-size: 1rem;
   --body-highlight-font-size: 1.125rem;
@@ -484,6 +485,7 @@ ul li.no_margin-bottom {
   --title-font-size: 1.5rem;
   --number-step-font-size: 0.886rem;
   --body-paragraph-font-size: 1.063rem;
+  --body-text-overlay-font-size: 0.875rem;
   --logo-line-height: 1.5rem;
   --body-line-height: 1.188rem;
   --body-highlight-line-height: 1.313rem;
@@ -491,6 +493,7 @@ ul li.no_margin-bottom {
   --title-line-height: 1.75rem;
   --number-step-line-height: 1.063rem;
   --body-paragraph-line-height: 1.25rem;
+  --body-text-overlay-line-height: 1rem;
   --logo-font-family: "Shrikhand", sans-serif;
   --title-font-family: "Shrikhand", sans-serif;
 }
