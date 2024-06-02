@@ -37,6 +37,9 @@
 }
 
 .restaurants__img-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 80px;
     height: 29px;
     border-radius: 2px;
@@ -55,9 +58,9 @@
     font-weight: var(--body-text-overlay-font-weight);
     line-height: var(--body-text-overlay-line-height);
     font-style: normal;
-    position : absolute;
-    top: -6px;
-    right: 10.63px;
+    // position : absolute;
+    // top: -6px;
+    // right: 10.63px;
 
 }
 
