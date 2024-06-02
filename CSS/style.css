@@ -352,6 +352,9 @@ input::placeholder {
   font-weight: var(--body-text-overlay-font-weight);
   line-height: var(--body-text-overlay-line-height);
   font-style: normal;
+  position: absolute;
+  top: -6px;
+  right: 10.63px;
 }
 
 .restaurants__card-content {
