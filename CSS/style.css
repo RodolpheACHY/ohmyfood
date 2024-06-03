@@ -473,6 +473,7 @@ input::placeholder {
   font-variant: normal;
   line-height: 1;
   text-rendering: auto;
+  transform: rotate(var(--fa-rotate-angle, none));
 }
 
 @media (max-width: 1024px) {
