@@ -441,13 +441,6 @@ input::placeholder {
   margin: 0px;
 }
 
-.footer__subtitle-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 7px;
-}
-
 .footer__subtitle-container * {
   color: var(--secondary-bg-color);
 }
@@ -456,6 +449,10 @@ input::placeholder {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
 }
 
 .footer-content ul li {
