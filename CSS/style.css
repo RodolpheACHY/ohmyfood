@@ -448,6 +448,10 @@ input::placeholder {
   gap: 7px;
 }
 
+.footer__subtitle-container * {
+  color: var(--secondary-bg-color);
+}
+
 .footer__ul {
   list-style: none;
   margin: 0;
@@ -474,15 +478,6 @@ input::placeholder {
 }
 .container {
   display: block;
-}
-
-.footer-content {
-  padding-right: 0px;
-  padding-left: 0px;
-}
-
-.footer-content h3 {
-  margin-top: 0px;
 }
 
 ul li.last-li {
