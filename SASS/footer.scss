@@ -60,6 +60,13 @@
     transform-origin: center; /* Maintient l'icône au centre pendant le redimensionnement */
 }
 
+.footer__a {
+    font-size: var(--body-font-size);
+    font-style: normal;
+    font-weight: var(--body-font-weight);
+    line-height: var(--body-line-height);
+}
+
 @media (max-width: 1024px) {
   .container {
     gap: 35px;
