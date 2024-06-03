@@ -545,6 +545,7 @@ ul li.no_margin-bottom {
   --body-text-overlay-line-height: 1rem;
   --logo-font-family: "Shrikhand", sans-serif;
   --title-font-family: "Shrikhand", sans-serif;
+  --fa-rotate-angle: 3deg;
 }
 
 .fa-solid {
