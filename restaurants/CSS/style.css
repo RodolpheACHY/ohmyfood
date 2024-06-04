@@ -121,7 +121,7 @@ input::placeholder {
 .menus {
   display: flex;
   flex-direction: column;
-  background-color: var(--main-bg-color);
+  background-color: #F6F6F6;
   padding-top: 32px;
   padding-left: 17px;
   padding-right: 18px;
