@@ -58,6 +58,13 @@
 
 .menus__subtitle {
     margin-top: 0px;
+    width: 275px;
+    height: 27px;
+    font-size: $body-font-size;
+    font-style: normal;
+    font-weight: $body-highlight-font-weight;
+    line-height: $body-line-height;
+    text-transform: uppercase;
 }
 
 .menus__cards {

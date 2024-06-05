@@ -178,6 +178,13 @@ input::placeholder {
 
 .menus__subtitle {
   margin-top: 0px;
+  width: 275px;
+  height: 27px;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.188rem;
+  text-transform: uppercase;
 }
 
 .menus__cards {
