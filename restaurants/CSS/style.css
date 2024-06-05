@@ -293,6 +293,18 @@ img {
   font-style: normal;
 }
 
+.fa-solid-euro-sign-menu {
+  font-weight: 900;
+  font-family: "Font Awesome 6 Free";
+  -webkit-font-smoothing: antialiased;
+  display: var(--fa-display, inline-block);
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+  color: #353535;
+}
+
 .footer {
   background-color: var(--footer-bg-color);
   padding: 22px 25px;
