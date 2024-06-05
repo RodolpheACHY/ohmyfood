@@ -267,14 +267,15 @@ img {
 }
 
 .menus__card-subtitle {
-  width: 247px;
-  height: 24px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-size: var(--body-paragraph-font-size);
-  font-weight: var(--body-paragraph-font-weight);
-  line-height: var(--body-paragraph-line-height);
+  width: 287px;
+  height: 19px;
+  font-size: 0.94rem;
+  font-weight: 300;
+  line-height: 1.125rem;
   font-style: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .menus__card-price {

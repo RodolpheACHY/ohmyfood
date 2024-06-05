@@ -145,18 +145,18 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-
 }
 
 .menus__card-subtitle {
-    width: 247px;
-    height: 24px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: var(--body-paragraph-font-size);
-    font-weight: var(--body-paragraph-font-weight);
-    line-height: var(--body-paragraph-line-height);
+    width: 287px;
+    height: 19px;
+    font-size: $menu-card-subtitle-font-size;
+    font-weight: $menu-card-subtitle-font-weight;
+    line-height: $menu-card-subtitle-line-height;
     font-style: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .menus__card-price {
