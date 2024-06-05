@@ -259,8 +259,8 @@ img {
   font-weight: 500;
   line-height: 1.313rem;
   font-style: normal;
-  margin-top: 16px;
-  margin-bottom: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -276,6 +276,8 @@ img {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .menus__card-price {

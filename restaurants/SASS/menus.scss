@@ -140,8 +140,8 @@
     font-weight: $body-font-weight;
     line-height: $body-highlight-line-height;
     font-style: normal;
-    margin-top: 16px;
-    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -157,6 +157,8 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .menus__card-price {
