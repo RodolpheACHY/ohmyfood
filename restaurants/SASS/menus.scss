@@ -26,6 +26,7 @@
     font-weight: $menu-title-font-weight;
     line-height: $menu-title-line-height;
     margin-top: 0px;
+    margin-bottom: 0px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -53,6 +54,10 @@
     line-height: 1;
     text-rendering: auto;
     color: black; /* Pour éviter de superposer les couleurs */
+}
+
+.menus__subtitle {
+    margin-top: 0px;
 }
 
 .menus__cards {
