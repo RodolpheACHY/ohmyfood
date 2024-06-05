@@ -285,6 +285,14 @@ img {
   flex-direction: row;
 }
 
+.menus__card-number {
+  text-align: center;
+  font-size: 0.94rem;
+  font-weight: 700;
+  line-height: 1.125rem;
+  font-style: normal;
+}
+
 .footer {
   background-color: var(--footer-bg-color);
   padding: 22px 25px;

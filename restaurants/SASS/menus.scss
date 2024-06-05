@@ -166,3 +166,11 @@
     flex-direction: row;
     //gap: 12px;
 }
+
+.menus__card-number {
+    text-align: center;
+    font-size: $menu-card-subtitle-font-size;
+    font-weight: $title-font-weight;
+    line-height: $menu-card-subtitle-line-height;
+    font-style: normal;
+}
