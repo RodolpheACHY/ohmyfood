@@ -305,6 +305,11 @@ img {
   color: #353535;
 }
 
+.menus__euro-sign-container {
+  display: flex;
+  align-items: center;
+}
+
 .footer {
   background-color: var(--footer-bg-color);
   padding: 22px 25px;
