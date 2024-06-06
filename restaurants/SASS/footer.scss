@@ -1,5 +1,5 @@
 .footer {
-    background-color: var(--footer-bg-color);
+    background-color: $footer-bg-color;
     padding: 22px 25px;
 }
 
@@ -15,16 +15,16 @@
     width: 137.582px;
     height: 27px;
     font-family: Shrikhand;
-    color: var(--secondary-bg-color);
-    font-size: var(--body-highlight-font-size);
+    color: $secondary-bg-color;
+    font-size: $body-highlight-font-size;
     font-style: normal;
-    font-weight: var(--logo-font-weight);
+    font-weight: $logo-font-weight;
     line-height: 1.625rem;
     margin: 0px;
 }
 
 .footer__subtitle-container * {
-    color: var(--secondary-bg-color);
+    color: $secondary-bg-color;
 }
 
 .footer__ul {    // c'est le conteneur des li donc on passe par lui pour gérer les espaces entre eux
@@ -47,7 +47,7 @@
 }
 
 .fa-solid__handshake-icon-footer {
-    color: var(--main-bg-color);
+    color: $main-bg-color;
     font-weight: 900;
     font-family: "Font Awesome 6 Free";
     -webkit-font-smoothing: antialiased;
@@ -61,10 +61,10 @@
 }
 
 .footer__a {
-    font-size: var(--body-font-size);
+    font-size: $body-font-size;
     font-style: normal;
-    font-weight: var(--body-font-weight);
-    line-height: var(--body-line-height);
+    font-weight: $body-font-weight;
+    line-height: $body-line-height;
 }
 
 @media (max-width: 1024px) {
