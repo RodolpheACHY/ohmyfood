@@ -288,6 +288,7 @@ img {
 .menus__card-price {
   display: flex;
   flex-direction: row;
+  transform: translateY(12px);
 }
 
 .menus__card-number {
