@@ -197,7 +197,7 @@ img {
   margin-top: 0px;
   width: 275px;
   height: 27px;
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-style: normal;
   font-weight: 300;
   line-height: 1.188rem;
@@ -234,10 +234,6 @@ img {
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   position: relative;
-}
-
-.menus__cards:last-child {
-  margin-bottom: 66px;
 }
 
 .menus__card-content {

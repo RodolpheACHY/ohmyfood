@@ -77,7 +77,7 @@
     margin-top: 0px;
     width: 275px;
     height: 27px;
-    font-size: $body-font-size;
+    font-size: $body-highlight-font-size;
     font-style: normal;
     font-weight: $body-highlight-font-weight;
     line-height: $body-line-height;
@@ -118,9 +118,6 @@
     position : relative;
 }
 
-.menus__cards:last-child {
-    margin-bottom: 66px;
-}
 
 .menus__card-content {
     display: flex;
