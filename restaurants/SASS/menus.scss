@@ -73,6 +73,13 @@
     color: black; /* Pour éviter de superposer les couleurs */
 }
 
+.menus_menu-containers {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
 .menus__subtitle {
     margin-top: 0px;
     width: 275px;
