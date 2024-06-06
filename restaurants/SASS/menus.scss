@@ -125,8 +125,12 @@
 .menus__card-content {
     display: flex;
     flex-direction: row;
-    padding-left: 13px;
-    padding-bottom: 12px;
+    width: 100%;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 11px;
+    justify-content: space-between;
 }
 
 .menus__card-descript-text {
