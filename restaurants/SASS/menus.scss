@@ -1,6 +1,6 @@
 .menus__cover-container {
-    position: relative;
-    z-index: 1; /* Ensure the image is behind the section */
+    //position: relative;
+   // z-index: 1; /* Ensure the image is behind the section */
   }
 
   img {
@@ -20,9 +20,10 @@
     padding-bottom: 40px;
     gap: 40px;
     border-radius: 40px 40px 0px 0px;
-    position: relative;
-    top: -50px; /* Adjust the value to control the overlap */
-    z-index: 2; /* Ensure the section is above the image */
+    position: relative; // sans cette propriété le bg ne chaevauche pas l'image
+    margin-top: -50px;
+    //top: -50px; /* Adjust the value to control the overlap */
+    //z-index: 2; /* Ensure the section is above the image */
 }
 
 .menus__container-title {
