@@ -20,9 +20,18 @@
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
+.appBar__ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
 .appBar__icon-back-link {
   width: 30px;
   height: 30px;
+  position: absolute;
+  left: 7px;
+  padding-top: 11px;
+  padding-left: 17px;
   transform: scale(1.5); /* Ajustez l'échelle selon vos besoins */
   transform-origin: center; /* Maintient l'icône au centre pendant le redimensionnement */
 }
@@ -37,11 +46,6 @@
   line-height: 1;
   text-rendering: auto;
   color: #353535;
-  display: flex;
-  align-items: center;
-  position: absolute;
-  left: 17px;
-  top: 17px;
 }
 
 .appBar__logo {
