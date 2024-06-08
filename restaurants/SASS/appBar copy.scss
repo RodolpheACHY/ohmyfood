@@ -1,0 +1,119 @@
+  .appBar {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+  }
+
+  .appBar__container-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    
+  }
+
+.appBar__ul {    // c'est le conteneur des li donc on passe par lui pour gérer les espaces entre eux
+    list-style: none;
+    padding-left: 0px;
+}
+
+  .appBar__icon-back-link {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 7px;
+    padding-top: 11px;
+    padding-left: 17px;
+    transform: scale(1.5); /* Ajustez l'échelle selon vos besoins */
+    transform-origin: center; /* Maintient l'icône au centre pendant le redimensionnement */
+  }
+
+  .fa-solid-black-link-appBar {
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display, inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    color:$footer-bg-color ;
+}
+
+  .appBar__logo {
+    font-family: $logo-font-family;
+    font-size: $logo-font-size;
+    font-weight: $logo-font-weight;
+    line-height: $logo-line-height;
+    width: 10.125rem;
+    height: 1.875rem;
+    padding-top: 9px;
+    padding-right: 19px;
+    padding-left: 16px;
+    margin-top: 14px;
+    margin-bottom: 13px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .appBar__localisation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+    background-color: $appBar-localisation-bg-color;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+ 
+  .appBar__icone-localisation {
+    color: $footer-bg-color;
+  }
+
+  .appBar__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .appBar__form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 17px;
+  }
+
+  .appBar__input {
+    font-size: $body-font-size;
+    font-weight: 500;
+    background: $appBar-localisation-bg-color;
+    color: $footer-bg-color;
+    border: none;
+    width: 130px;
+  }
+
+  input::placeholder {
+    color: $footer-bg-color;
+  }
+
+  .appBar__navItem {
+    margin-right: 0px;
+    flex:1;
+    text-align: center;
+    border-bottom: 2px solid transparent;
+    border-top: none;
+    padding-bottom: 15px;
+    border-color: #f2f2f2;
+  }
+
+  .appBar__navItem:hover,
+  .appBar__navItem.active {
+  color: $main-color;
+  border-bottom-color: $main-color;
+  }

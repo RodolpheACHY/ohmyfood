@@ -1,0 +1,93 @@
+.footer {
+    background-color: $footer-bg-color;
+    padding: 22px 25px;
+}
+
+.footer__container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px; 
+}
+
+.footer__title {
+    width: 137.582px;
+    height: 27px;
+    font-family: Shrikhand;
+    color: $secondary-bg-color;
+    font-size: $body-highlight-font-size;
+    font-style: normal;
+    font-weight: $logo-font-weight;
+    line-height: 1.625rem;
+    margin: 0px;
+}
+
+.footer__subtitle-container * {
+    color: $secondary-bg-color;
+}
+
+.footer__ul {    // c'est le conteneur des li donc on passe par lui pour gérer les espaces entre eux
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+}
+
+.footer__utensils-icon {
+    margin-right: 11px;
+}
+
+.footer__handshake-icon {
+    margin-right: 5px;
+
+}
+
+.fa-solid__handshake-icon-footer {
+    color: $main-bg-color;
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display, inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    transform: rotate(var(--fa-rotate-angle, none)) scale(0.7);
+    transform-origin: center; /* Maintient l'icône au centre pendant le redimensionnement */
+}
+
+.footer__a {
+    font-size: $body-font-size;
+    font-style: normal;
+    font-weight: $body-font-weight;
+    line-height: $body-line-height;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    gap: 35px;
+  }
+
+  .footer-content {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+.container {
+  display: block;
+}
+
+
+
+ul li.last-li {
+  margin-bottom: 50px;
+}
+
+ul li.no_margin-bottom {
+  margin-bottom: 0px;
+}
