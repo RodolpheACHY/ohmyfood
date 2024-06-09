@@ -345,7 +345,7 @@
 }
 
 .footer {
-  background-color: var(--footer-bg-color);
+  background-color: #353535;
   padding: 22px 25px;
 }
 
@@ -360,17 +360,17 @@
 .footer__title {
   width: 137.582px;
   height: 27px;
-  font-family: Shrikhand;
-  color: var(--secondary-bg-color);
-  font-size: var(--body-highlight-font-size);
+  font-family: "Shrikhand", sans-serif;
+  color: #ffffff;
+  font-size: 1.125rem;
   font-style: normal;
-  font-weight: var(--logo-font-weight);
+  font-weight: 400;
   line-height: 1.625rem;
   margin: 0px;
 }
 
 .footer__subtitle-container * {
-  color: var(--secondary-bg-color);
+  color: #ffffff;
 }
 
 .footer__ul {
@@ -392,7 +392,7 @@
 }
 
 .fa-solid__handshake-icon-footer {
-  color: var(--main-bg-color);
+  color: #F6F6F6;
   font-weight: 900;
   font-family: "Font Awesome 6 Free";
   -webkit-font-smoothing: antialiased;
@@ -406,10 +406,10 @@
 }
 
 .footer__a {
-  font-size: var(--body-font-size);
+  font-size: 1rem;
   font-style: normal;
-  font-weight: var(--body-font-weight);
-  line-height: var(--body-line-height);
+  font-weight: 500;
+  line-height: 1.188rem;
 }
 
 @media (max-width: 1024px) {
