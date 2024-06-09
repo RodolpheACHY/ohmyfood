@@ -1,0 +1,59 @@
+
+/* Design System*/
+ /* Colors */
+ $main-color: #9356DC;
+ $main-bg-color: #F6F6F6;
+ $secondary-bg-color: #ffffff;
+ $secondary-gradient-button-color: #FF79DA;
+ $footer-bg-color: #353535;
+ $appBar-localisation-bg-color: #EAEAEA;
+ $validate-menu-color: #99E2D0;
+ $font-overlay-color: #008766;
+ $icon-functioning-color: #7E7E7E;
+ $color-start: #9356DC ;
+ $color-end: #FF79DA;
+ $gradient-color: linear-gradient(135deg, $color-start, $color-end);
+ $menu-button-gradient: linear-gradient(193deg, $main-color -11.44%, $secondary-gradient-button-color 123.93%);
+
+ /* Text Configuration*/
+ 
+ $logo-font-weight: 400;
+ $body-font-weight: 500;
+ $body-highlight-font-weight: 300;
+ $header-font-weight: 400;
+ $title-font-weight: 700;
+ $body-paragraph-font-weight: 300;
+ $body-text-overlay-font-weight: 500;
+ $menu-title-font-weight: 400;
+ $menu-card-subtitle-font-weight: 300;
+
+ $logo-font-size: 1.875rem; //30px
+ $body-font-size: 1rem; //16px
+ $body-highlight-font-size: 1.125rem; //18px
+ $header-font-size: 1rem; 
+ $title-font-size: 1.5rem; //24px
+ $number-step-font-size: 0.886rem; //14.176px
+ $body-paragraph-font-size: 1.063rem; //17px
+ $body-text-overlay-font-size: 0.875rem; //14px
+ $menu-title-font-size: 1.75rem; //28px
+ $menu-card-subtitle-font-size: 0.94rem; //15px
+
+ $logo-line-height: 1.5rem;
+ $body-line-height: 1.188rem;  //19px
+ $body-highlight-line-height: 1.313rem; //21px
+ $header-line-height: 1.188rem;
+ $title-line-height: 1.75rem;
+ $number-step-line-height: 1.063rem;
+ $body-paragraph-line-height: 1.25rem; //20px
+ $body-text-overlay-line-height: 1rem;
+ $menu-title-line-height: 2.563rem; //41px
+ $menu-card-subtitle-line-height: 1.125rem;  //18px
+ 
+
+ $logo-font-family: 'Shrikhand', sans-serif;
+ $title-font-family: 'Shrikhand', sans-serif;
+ $fa-rotate-angle: 3deg;
+
+ // breakpoints
+ $breakpoint-tablet: 768px;
+ $breakpoint-desktop: 1024px;

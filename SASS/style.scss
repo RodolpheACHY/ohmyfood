@@ -1,4 +1,5 @@
 /* Modules */
+@import './variables.scss';
 @import './appBar.scss';
 @import './hero.scss';
 @import './fonctionnement.scss';
@@ -13,59 +14,8 @@
  color: black;
 }
 
-
-/* Design System*/
-:root {
- /* Colors */
- --main-color: #9356DC;
- --main-bg-color: #F6F6F6;
- --secondary-bg-color: #ffffff;
- --secondary-gradient-button-color: #FF79DA;
- --footer-bg-color: #353535;
- --appBar-localisation-bg-color: #EAEAEA;
- --validate-menu-color: #99E2D0;
- --font-overlay-color: #008766;
- --icon-functioning-color: #7E7E7E;
- --color-start: #9356DC ;
- --color-end: #FF79DA;
- --gradient-color: linear-gradient(135deg, var(--color-start), var(--color-end));
-
- /* Text Configuration*/
- 
- --logo-font-weight: 400;
- --body-font-weight: 500;
- --body-highlight-font-weight: 300;
- --header-font-weight: 400;
- --title-font-weight: 700;
- --body-paragraph-font-weight: 300;
- --body-text-overlay-font-weight: 500;
-
- --logo-font-size: 1.875rem;
- --body-font-size: 1rem;
- --body-highlight-font-size: 1.125rem;
- --header-font-size: 1rem;
- --title-font-size: 1.5rem;
- --number-step-font-size: 0.886rem;
- --body-paragraph-font-size: 1.063rem;
- --body-text-overlay-font-size: 0.875rem;
-
- --logo-line-height: 1.5rem;
- --body-line-height: 1.188rem;
- --body-highlight-line-height: 1.313rem;
- --header-line-height: 1.188rem;
- --title-line-height: 1.75rem;
- --number-step-line-height: 1.063rem;
- --body-paragraph-line-height: 1.25rem;
- --body-text-overlay-line-height: 1rem;
- 
-
- --logo-font-family: 'Shrikhand', sans-serif;
- --title-font-family: 'Shrikhand', sans-serif;
- --fa-rotate-angle: 3deg;
-}
-
 .fa-solid {
- color: var(--icon-functioning-color);
+ color: $icon-functioning-color;
 }
 
 body {
@@ -91,7 +41,7 @@ a {
 
 .section-title {
  margin: 0;
- font-size: var(--title-font-size) /* 22px */;
+ font-size: $title-font-size /* 22px */;
 }
 
 /*.card {
@@ -123,7 +73,7 @@ img {
 }
 
 .neutral-star {
- color: var(--main-bg-color)
+ color: $main-bg-color;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
