@@ -1,45 +1,47 @@
-    .hero__content {
-        background-color: #F6F6F6;
-    }
+.hero {
+  display: block;
+  unicode-bidi: isolate;
 
-    .hero__content {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     text-align: center;
-    }
+  &__content {
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
-   .hero__title {
-    font-size: var(--title-font-size);
-    font-weight: var(--title-font-weight);
-    line-height: var(--title-line-height);
+  &__title {
+    font-size: $title-font-size;
+    font-weight: $title-font-weight;
+    line-height: $title-line-height;
     max-width: 275px;
     height: 68px;
     margin-top: 39px;
     margin-left: 42px;
     margin-right: 58px;
     margin-bottom: 0;
-   }
+  }
 
-   .hero__description {
-    font-size: var(--body-highlight-font-size);
-    font-weight: var(--body-highlight-font-weight);
-    line-height: var(--body-highlight-line-height);
+  &__description {
+    font-size: $body-highlight-font-size;
+    font-weight: $body-highlight-font-weight;
+    line-height: $body-highlight-line-height;
     font-style: normal;
-    color: var(--footer-bg-color);
+    color: $footer-bg-color;
     max-width: 315px;
     height: 46px;
     margin-left: 34px;
     margin-right: 26px;
     margin-bottom: 27px;
-   }
+  }
 
-   .hero__button {
+  &__button {
     width: 218px;
     height: 50px;
-    background: var(--Button-Gradient, linear-gradient(193deg, var(--main-color) -11.44%, var(--secondary-gradient-button-color) 123.93%));
+    //background: var(--Button-Gradient, linear-gradient(193deg, var(--main-color) -11.44%, var(--secondary-gradient-button-color) 123.93%));
+    background: $menu-button-gradient;
     border-radius: 25px;
-    color: var(--secondary-bg-color);
+    color: $secondary-bg-color;
     text-align: center;
     border: 0px;
     margin-left: 82px;
@@ -48,9 +50,10 @@
     /* Shadow/Button */
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
     /* Text button */
-    font-size: var(--body-font-size);
-    font-weight: var(--body-font-weight);
-    line-height: var(--body-line-height);
+    font-size: $body-font-size;
+    font-weight: $body-font-weight;
+    line-height: $body-line-height;
     font-style: normal;
-   }
+  }
     
+}
