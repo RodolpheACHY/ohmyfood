@@ -1,66 +1,11 @@
 .appBar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-self: flex-start;
-}
-
-.appBar__logo {
-  width: 3.813rem;
-  height: 1.188rem;
-  top: 0;
-  left: 0;
-  margin: 20px 0 0 0;
-  padding: 0;
+  justify-content: center;
   align-items: center;
-}
-
-.appBar__nav {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   align-self: flex-start;
-  list-style-type: none;
-  
-  
-}
 
-.appBar__li:first-child {
-  margin-right: 40px;
-}
-
-.appBar__navItem {
-  font-family: var(--title-font);
-  font-style: normal;
-  font-weight: var(--title-font-weight);
-  font-size: var(--title-font-size);
-  line-height: var(--title-line-height);
-  color: var(--black);
-  text-decoration: none;
-  font-size: 16px;
-  margin-top: 0;
-  padding-top: 14px;
-  border-top: 2px solid transparent;
-  
-}
-.appBar__navItem:hover, .appBar__navItem.active {
-  color: var(--main-color);
-  border-top-color: var(--main-color);
-}
-
-li a {
-  display: block; /* Convertit le lien en élément de bloc */
-}
-
-
-  .appBar {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
-  }
-
-  .appBar__container-logo {
+  &__container-logo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,7 +14,7 @@ li a {
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
   }
 
-  .appBar__logo {
+  &__logo {
     font-family: var(--logo-font-family);
     font-size: var(--logo-font-size);
     font-weight: var(--logo-font-weight);
@@ -85,7 +30,7 @@ li a {
     display: flex;
   }
 
-  .appBar__localisation {
+  &__localisation {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -94,26 +39,26 @@ li a {
     background-color: var(--appBar-localisation-bg-color);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
- 
-  .appBar__icone-localisation {
+
+  &__icone-localisation {
     color: var(--footer-bg-color);
   }
 
-  .appBar__nav {
+  &__nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 100%;
   }
 
-  .appBar__form {
+  &__form {
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 17px;
   }
 
-  .appBar__input {
+  &__input {
     font-size: var(--body-font-size);
     font-weight: 500;
     background: var(--appBar-localisation-bg-color);
@@ -122,22 +67,7 @@ li a {
     width: 130px;
   }
 
-  input::placeholder {
+  &__input::placeholder {
     color: var(--footer-bg-color);
   }
-
-  .appBar__navItem {
-    margin-right: 0px;
-    flex:1;
-    text-align: center;
-    border-bottom: 2px solid transparent;
-    border-top: none;
-    padding-bottom: 15px;
-    border-color: #f2f2f2;
-  }
-
-  .appBar__navItem:hover,
-  .appBar__navItem.active {
-  color: var(--main-color);
-  border-bottom-color: var(--main-color);
-  }
+}

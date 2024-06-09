@@ -12,19 +12,19 @@
  color: black;
 }
 
- body {
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  /* overflow-x: hidden;  /* empeche le scrolling horizontal */
- }
+body {
+display: flex;
+justify-content: center;
+margin: 0;
+/* overflow-x: hidden;  /* empeche le scrolling horizontal */
+}
 
- .main-container {
-  width: 100%;
-  max-width: 1440px;
-  padding: 0 0px;
-  box-sizing: border-box;
- }
+.main-container {
+width: 100%;
+max-width: 1440px;
+padding: 0 0px;
+box-sizing: border-box;
+}
 
 .fa-solid {
  color: $icon-functioning-color;
@@ -41,7 +41,6 @@ a {
  margin: 0;
  font-size: $title-font-size /* 22px */;
 }
-
 
 .card-title {
  font-size: 16px;
@@ -62,13 +61,13 @@ a {
 
 /*********** Commun ************/
 
- .populaires-cards, .hebergements-cards, .activites-cards {
-   flex-direction: column;
- }
- .main-container {
-   display: block;
-   padding: 0;
- }
+  .populaires-cards, .hebergements-cards, .activites-cards {
+    flex-direction: column;
+  }
+  .main-container {
+    display: block;
+    padding: 0;
+  }
  
 /********* Heberg&pop **********/
 
