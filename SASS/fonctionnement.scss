@@ -116,6 +116,7 @@
     
     &__articles {
       flex-direction: row;
+      flex-wrap: wrap;
     }
 
     &__article-item {
