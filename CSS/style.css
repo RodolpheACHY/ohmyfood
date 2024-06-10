@@ -122,6 +122,27 @@
   line-height: 1.188rem;
   font-style: normal;
 }
+@media (min-width: 1024px) {
+  .hero {
+    display: block;
+    unicode-bidi: isolate;
+  }
+  .hero__content {
+    gap: 18px;
+  }
+  .hero__title {
+    max-width: 100%;
+    margin-top: 30px;
+    height: 47px;
+  }
+  .hero__description {
+    max-width: 100%;
+    margin-bottom: 0px;
+  }
+  .hero__button {
+    margin-bottom: 30px;
+  }
+}
 
 .functioning {
   display: block;

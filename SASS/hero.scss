@@ -33,6 +33,7 @@
     margin-left: 34px;
     margin-right: 26px;
     margin-bottom: 27px;
+
   }
 
   &__button {
@@ -54,6 +55,30 @@
     font-weight: $body-font-weight;
     line-height: $body-line-height;
     font-style: normal;
+  }
+
+  @media (min-width: $breakpoint-desktop) {
+    display: block;
+    unicode-bidi: isolate;
+
+    &__content {
+      gap: 18px
+    }
+
+    &__title {
+      max-width: 100%;
+      margin-top: 30px;
+      height: 47px;
+    }
+
+    &__description {
+      max-width: 100%;
+      margin-bottom: 0px;
+    }
+
+    &__button {
+      margin-bottom: 30px;
+    }
   }
     
 }
