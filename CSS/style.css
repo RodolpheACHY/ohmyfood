@@ -319,9 +319,6 @@
   font-weight: 500;
   line-height: 1rem;
   font-style: normal;
-  /* position : absolute; */
-  /* top: -6px; */
-  /* right: 10.63px; */
 }
 .restaurants__card-content {
   display: flex;

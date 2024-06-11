@@ -109,7 +109,7 @@
     transform-origin: center; /* Maintient l'icône au centre pendant le redimensionnement */
   }
 
-  @media only screen and (min-width: $breakpoint-desktop) {
+  @media only screen and (min-width: 1024px) {
     &__cards {
       display: flex;
       flex-direction: row; /* Disposition en ligne */
