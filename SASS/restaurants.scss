@@ -5,6 +5,8 @@
   padding-top: 54px;
   padding-left: 17px;
   padding-right: 18px;
+  height: 100%;
+  gap: 19px;
 
   &__title {
     margin-top: 0px;
@@ -103,6 +105,19 @@
     bottom: 33px;
     transform: scale(1.5); /* Ajustez l'échelle selon vos besoins */
     transform-origin: center; /* Maintient l'icône au centre pendant le redimensionnement */
+  }
+
+  @media only screen and (min-width: $breakpoint-desktop) {
+    &__cards {
+      display: flex;
+      flex-direction: row; /* Disposition en ligne */
+      flex-wrap: wrap; /* Permet le retour à la ligne des éléments */
+    } 
+
+    &__card {
+      flex: 0 1 calc(50% - 100px); /* Chaque élément prend 50% de la largeur moins l'espace du gap */
+      margin-bottom: 50px; /* Ajoute un espace en bas des éléments */
+    }
   }
 
 }
