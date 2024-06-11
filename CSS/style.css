@@ -319,6 +319,9 @@
   font-weight: 500;
   line-height: 1rem;
   font-style: normal;
+  /* position : absolute; */
+  /* top: -6px; */
+  /* right: 10.63px; */
 }
 .restaurants__card-content {
   display: flex;
@@ -360,10 +363,11 @@
     display: flex;
     flex-direction: row; /* Disposition en ligne */
     flex-wrap: wrap; /* Permet le retour à la ligne des éléments */
+    column-gap: 50px;
+    row-gap: 100px;
   }
   .restaurants__card {
-    flex: 0 1 calc(50% - 100px); /* Chaque élément prend 50% de la largeur moins l'espace du gap */
-    margin-bottom: 50px; /* Ajoute un espace en bas des éléments */
+    flex: 1 1 calc(50% - 100px); /* Chaque élément prend 50% de la largeur moins l'espace du gap */
   }
 }
 
