@@ -108,6 +108,8 @@
       gap: 25px;
       margin-top: 0px;
       margin-bottom: 0px;
+      max-width: $max-width;
+      width: 100%;
     }
     
     &__title { 
@@ -117,6 +119,7 @@
     &__articles {
       flex-direction: row;
       flex-wrap: wrap;
+      margin: 0 auto;
     }
 
     &__article-item {

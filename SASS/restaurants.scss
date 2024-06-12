@@ -116,13 +116,21 @@
       flex-wrap: wrap; /* Permet le retour à la ligne des éléments */
       column-gap: 50px;
       row-gap: 100px;
+      
+      a {
+        width: 47%;
+      }
     } 
 
-    &__card {
-      flex: 1 1 calc(50% - 100px); /* Chaque élément prend 50% de la largeur moins l'espace du gap */
+    /* &__card {
+      flex: 1 1 calc(50% - 100px); /* Chaque élément prend 50% de la largeur moins l'espace du gap 
+    } */
+    .wrapper-restaurant {
+      max-width: $max-width;
+      width: 100%;
+      margin: 0 auto;
     }
   }
-
 }
 
 .fa-solid-heart-restaurants {
