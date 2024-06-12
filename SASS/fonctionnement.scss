@@ -95,6 +95,14 @@
     position: absolute;
   }
 
+  @media only screen and (min-width: $breakpoint-tablet) {
+    &__articles {
+      margin: 0 auto;
+    }
+    
+   
+  }
+
   @media only screen and (min-width: $breakpoint-desktop) {
     display: flex;
     flex-direction: row;
@@ -119,7 +127,6 @@
     &__articles {
       flex-direction: row;
       flex-wrap: wrap;
-      margin: 0 auto;
     }
 
     &__article-item {

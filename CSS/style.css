@@ -230,6 +230,11 @@
   right: 311px;
   position: absolute;
 }
+@media only screen and (min-width: 768px) {
+  .functioning__articles {
+    margin: 0 auto;
+  }
+}
 @media only screen and (min-width: 1024px) {
   .functioning {
     display: flex;
@@ -253,7 +258,6 @@
   .functioning__articles {
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 0 auto;
   }
   .functioning__article-item:last-child {
     margin-bottom: 0px;
