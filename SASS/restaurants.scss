@@ -122,9 +122,9 @@
       }
     } 
 
-    /* &__card {
-      flex: 1 1 calc(50% - 100px); /* Chaque élément prend 50% de la largeur moins l'espace du gap 
-    } */
+    &__card {
+      flex: 1 1 calc(50% - 100px); /* Chaque élément prend 50% de la largeur moins l'espace du gap */
+    }
     .wrapper-restaurant {
       max-width: $max-width;
       width: 100%;
