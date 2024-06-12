@@ -445,6 +445,20 @@
   font-weight: 500;
   line-height: 1.188rem;
 }
+.footer__li {
+  width: 200px;
+}
+.footer__li--small {
+  width: 130px;
+}
+@media only screen and (min-width: 768px) {
+  .footer__container {
+    flex-direction: row-reverse;
+  }
+  .footer__ul {
+    flex-direction: row;
+  }
+}
 
 .fa-solid__handshake-icon-footer {
   color: #F6F6F6;

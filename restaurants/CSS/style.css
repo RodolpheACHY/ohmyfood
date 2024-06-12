@@ -322,6 +322,7 @@ img {
   font-style: normal;
   font-weight: 500;
   line-height: 1.188rem;
+  width: 200px;
 }
 
 .fa-solid__handshake-icon-footer {
