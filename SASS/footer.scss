@@ -67,8 +67,17 @@
     &__ul {
       flex-direction: row;
     }
+
+    &__li--small {
+      width : 70px;
+    } 
   }
 
+  @media only screen and (min-width: $breakpoint-desktop) {
+    .footer__li--small {
+      width : 130px;
+    } 
+  } 
 }
 
 .fa-solid__handshake-icon-footer {

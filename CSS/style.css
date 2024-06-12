@@ -458,6 +458,14 @@
   .footer__ul {
     flex-direction: row;
   }
+  .footer__li--small {
+    width: 70px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .footer .footer__li--small {
+    width: 130px;
+  }
 }
 
 .fa-solid__handshake-icon-footer {
