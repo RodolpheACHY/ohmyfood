@@ -60,6 +60,8 @@
   } */
 
   @media only screen and (min-width: $breakpoint-tablet) {
+    padding: 30px 25px;
+
     &__container {
       flex-direction: row-reverse;
     }
@@ -78,10 +80,6 @@
   }
 
   @media only screen and (min-width: $breakpoint-desktop) {
-   /* .footer__li--small {
-      width : 130px;
-    } */
-
     &__li:nth-child(2) {
       margin-right: 40px;
     }
