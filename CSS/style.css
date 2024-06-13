@@ -68,6 +68,14 @@
 .appBar__input::placeholder {
   color: #353535;
 }
+@media (min-width: 768px) {
+  .appBar__container-logo {
+    box-shadow: none;
+  }
+  .appBar__localisation {
+    box-shadow: none;
+  }
+}
 
 .hero {
   display: block;

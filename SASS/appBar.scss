@@ -70,4 +70,16 @@
   &__input::placeholder {
     color: $footer-bg-color;
   }
+
+  @media (min-width: $breakpoint-tablet) {
+    &__container-logo {
+      box-shadow: none;
+    }  
+
+    &__localisation {
+      box-shadow: none;
+    }
+  }
+
+
 }
