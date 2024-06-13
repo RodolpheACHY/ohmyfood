@@ -93,28 +93,3 @@
   transform: rotate(var(--fa-rotate-angle, none)) scale(0.7);
   transform-origin: center; /* Maintient l'icône au centre pendant le redimensionnement */
 }
-
-@media (max-width: 1024px) {
-  .container {
-    gap: 35px;
-  }
-
-  .footer-content {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-}
-
-.container {
-  display: block;
-}
-
-
-
-ul li.last-li {
-  margin-bottom: 50px;
-}
-
-ul li.no_margin-bottom {
-  margin-bottom: 0px;
-}

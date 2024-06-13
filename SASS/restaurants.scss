@@ -109,13 +109,13 @@
     transform-origin: center; /* Maintient l'icône au centre pendant le redimensionnement */
   }
 
-  @media (min-width: $breakpoint-desktop) {
+  @media (min-width: $breakpoint-tablet) {
     &__cards {
       display: flex;
       flex-direction: row; /* Disposition en ligne */
       flex-wrap: wrap; /* Permet le retour à la ligne des éléments */
-      column-gap: 50px;
-      row-gap: 100px;
+      column-gap: 25px;
+      row-gap: 50px;
       
       a {
         width: 47%;
@@ -129,6 +129,14 @@
       max-width: $max-width;
       width: 100%;
       margin: 0 auto;
+    }
+  }
+
+
+  @media (min-width: $breakpoint-desktop) {
+    &__cards {
+      column-gap: 50px;
+      row-gap: 100px;
     }
   }
 }

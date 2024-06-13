@@ -362,6 +362,26 @@
   transform: scale(1.5); /* Ajustez l'échelle selon vos besoins */
   transform-origin: center; /* Maintient l'icône au centre pendant le redimensionnement */
 }
+@media (min-width: 768px) {
+  .restaurants__cards {
+    display: flex;
+    flex-direction: row; /* Disposition en ligne */
+    flex-wrap: wrap; /* Permet le retour à la ligne des éléments */
+    column-gap: 50px;
+    row-gap: 100px;
+  }
+  .restaurants__cards a {
+    width: 47%;
+  }
+  .restaurants__card {
+    flex: 1 1 calc(50% - 100px); /* Chaque élément prend 50% de la largeur moins l'espace du gap */
+  }
+  .restaurants .wrapper-restaurant {
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
 @media (min-width: 1024px) {
   .restaurants__cards {
     display: flex;
