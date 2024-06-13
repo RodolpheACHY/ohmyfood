@@ -459,11 +459,6 @@
   line-height: 1.188rem;
 }
 @media only screen and (min-width: 768px) {
-  .footer {
-    /*  &__li--small {
-        width : 70px;
-      } */
-  }
   .footer__container {
     flex-direction: row-reverse;
   }
@@ -482,6 +477,12 @@
     /* .footer__li--small {
        width : 130px;
      } */
+  }
+  .footer__li:nth-child(2) {
+    margin-right: 40px;
+  }
+  .footer__li:last-child {
+    margin-right: 60px;
   }
 }
 

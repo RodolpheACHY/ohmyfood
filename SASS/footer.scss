@@ -75,17 +75,20 @@
     &__li:last-child {
       margin-right: 40px;
     }
-
-
-  /*  &__li--small {
-      width : 70px;
-    } */
   }
 
   @media only screen and (min-width: $breakpoint-desktop) {
    /* .footer__li--small {
       width : 130px;
     } */
+
+    &__li:nth-child(2) {
+      margin-right: 40px;
+    }
+
+    &__li:last-child {
+      margin-right: 60px;
+    }
   } 
 }
 
