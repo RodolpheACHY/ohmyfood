@@ -13,6 +13,12 @@
   //top: -50px; /* Adjust the value to control the overlap */
   //z-index: 2; /* Ensure the section is above the image */
 
+  @media (min-width: 768px) {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   &__container-title {
     display: flex;
     flex-direction: row;
@@ -36,6 +42,10 @@
     align-items: center;
     justify-content: center;
     display: flex;
+
+    @media (min-width: 768px) {
+      margin-top: 20px;
+    }
   }
 
   &__heart-icon {
@@ -48,12 +58,21 @@
     bottom: 33px;
     transform: scale(1.5); /* Ajustez l'échelle selon vos besoins */
     transform-origin: center; /* Maintient l'icône au centre pendant le redimensionnement */
+
+    @media (min-width: 768px) {
+      top: 26px;
+    }
   }
 
   &__menu-containers {
     display: flex;
     flex-direction: column;
     gap: 40px;
+
+    @media (min-width: 768px) {
+      margin: 0 auto;
+      width: 70%;
+    }
   }
 
   &__subtitle {

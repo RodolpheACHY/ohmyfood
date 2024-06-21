@@ -76,6 +76,13 @@
   position: relative;
   margin-top: -50px;
 }
+@media (min-width: 768px) {
+  .menus {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
 .menus__container-title {
   display: flex;
   flex-direction: row;
@@ -99,6 +106,11 @@
   justify-content: center;
   display: flex;
 }
+@media (min-width: 768px) {
+  .menus__title {
+    margin-top: 20px;
+  }
+}
 .menus__heart-icon {
   width: 22px;
   height: 21px;
@@ -110,10 +122,21 @@
   transform: scale(1.5); /* Ajustez l'échelle selon vos besoins */
   transform-origin: center; /* Maintient l'icône au centre pendant le redimensionnement */
 }
+@media (min-width: 768px) {
+  .menus__heart-icon {
+    top: 26px;
+  }
+}
 .menus__menu-containers {
   display: flex;
   flex-direction: column;
   gap: 40px;
+}
+@media (min-width: 768px) {
+  .menus__menu-containers {
+    margin: 0 auto;
+    width: 70%;
+  }
 }
 .menus__subtitle {
   margin-top: 0px;
