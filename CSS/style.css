@@ -369,6 +369,16 @@
   bottom: 33px;
   transform: scale(1.5); /* Ajustez l'échelle selon vos besoins */
   transform-origin: center; /* Maintient l'icône au centre pendant le redimensionnement */
+  transition: all 1s ease-in-out;
+}
+.restaurants__heart-icon:hover {
+  font-weight: 900;
+
+  color: transparent; /* Pour éviter de superposer les couleurs */
+  background: linear-gradient(135deg, #9356DC, #FF79DA);
+  
+  background-clip: text;
+
 }
 @media (min-width: 768px) {
   .restaurants__cards {
@@ -399,18 +409,12 @@
 
 .fa-solid-heart-restaurants {
   font-weight: 900;
-  font-family: "Font Awesome 6 Free";
-  -webkit-font-smoothing: antialiased;
-  display: var(--fa-display, inline-block);
-  font-style: normal;
-  font-variant: normal;
-  line-height: 1;
-  text-rendering: auto;
+
   color: transparent; /* Pour éviter de superposer les couleurs */
   background: linear-gradient(135deg, #9356DC, #FF79DA);
-  -webkit-background-clip: text;
+  
   background-clip: text;
-  -webkit-text-fill-color: transparent;
+  
 }
 
 .footer {
@@ -615,3 +619,59 @@ img {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/*
+on applique notre transition sur cette classe commune 
+*/
+.custom-icon {
+  transition: all 0.5s ease-in-out;
+  font-size: 20px;
+}
+/*
+par défaut on est en noir sur le coeur vide
+*/
+.custom-icon:before {
+  color: black;
+}
+/*
+ couleur du coeur rempli
+*/
+.fa-solid.custom-icon:before {
+  color: #9356DC;
+}
+/*
+le coeur rempli est masqué par défaut
+*/
+.fa-solid.custom-icon {
+  opacity: 0;
+}
+/*
+le coeur vide est visible par défaut
+*/
+.fa-regular.custom-icon {
+  opacity: 1;
+}
+/*
+sur le hover, on masque le coeur vide et on affiche le coeur rempli
+*/
+.fa-solid.custom-icon:hover {
+  opacity: 1;
+}
+.fa-regular.custom-icon:hover {
+  opacity: 0;
+}
+
+/*
+on positionne les deux icon au même endroit pour faire l'animation
+*/
+
+.custom-icon-wrapper {
+  width:16px;
+  height: 16px;
+  position: relative;
+}
+.custom-icon-wrapper .custom-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
