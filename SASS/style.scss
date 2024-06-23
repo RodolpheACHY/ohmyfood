@@ -95,9 +95,13 @@ on positionne les deux icon au même endroit pour faire l'animation
   width:16px;
   height: 16px;
   position: relative;
+  position: absolute;
+  right: 25px;
+  bottom: 33px;
 }
 .custom-icon-wrapper .custom-icon {
   position: absolute;
   top: 0;
   left: 0;
+  font-size: 23px;
 }
