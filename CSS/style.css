@@ -369,16 +369,6 @@
   bottom: 33px;
   transform: scale(1.5); /* Ajustez l'échelle selon vos besoins */
   transform-origin: center; /* Maintient l'icône au centre pendant le redimensionnement */
-  transition: all 1s ease-in-out;
-}
-.restaurants__heart-icon:hover {
-  font-weight: 900;
-
-  color: transparent; /* Pour éviter de superposer les couleurs */
-  background: linear-gradient(135deg, #9356DC, #FF79DA);
-  
-  background-clip: text;
-
 }
 @media (min-width: 768px) {
   .restaurants__cards {
@@ -409,12 +399,18 @@
 
 .fa-solid-heart-restaurants {
   font-weight: 900;
-
+  font-family: "Font Awesome 6 Free";
+  -webkit-font-smoothing: antialiased;
+  display: var(--fa-display, inline-block);
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
   color: transparent; /* Pour éviter de superposer les couleurs */
   background: linear-gradient(135deg, #9356DC, #FF79DA);
-  
+  -webkit-background-clip: text;
   background-clip: text;
-  
+  -webkit-text-fill-color: transparent;
 }
 
 .footer {
@@ -542,80 +538,8 @@ a {
   width: 100%;
 }
 
-.section-title {
-  margin: 0;
-  font-size: 1.5rem;
-}
-
-/*.card {
- background-color: white;
- border-radius: 20px;
- //padding: 5px;
- filter: drop-shadow(0px 3px 15px rgba(34, 5, 5, 0.1));
-} */
 img {
   object-fit: cover;
-}
-
-/* .restaurants__card img {
- height: 231px;
-} */
-/*.card-imgHerbegement {
- width: 250px; 
- height: 124px; 
-} */
-.card-title {
-  font-size: 16px;
-}
-
-.euro {
-  font-weight: 700;
-}
-
-.neutral-star {
-  color: #F6F6F6;
-}
-
-/* Le code ci-dessous correspond à la version responsive uniquement */
-/****** Media queries ***********/
-/* Medium devices (tablets, less/equal than 1024px) */
-/* Tablet */
-@media (min-width: 767.98px) {
-  /*********** Commun ************/
-  .populaires-cards, .hebergements-cards, .activites-cards {
-    flex-direction: column;
-  }
-  .main-container {
-    display: block;
-    padding: 0;
-  }
-  /********* Heberg&pop **********/
-  .hebergements-and-populaires {
-    flex-direction: column-reverse;
-  }
-}
-@media (min-width: 1024px) {
-  /*********** Commun ************/
-  .hebergements, .populaires {
-    width: 100%;
-  }
-  /********* Heberg&pop **********/
-  .hebergements-and-populaires {
-    flex-direction: column;
-  }
-  /****** Populaires ***********/
-  .populaires-cards {
-    flex-direction: row;
-  }
-  .populaires-cards a {
-    height: 146px;
-  }
-  .populaires-cards .card-title {
-    font-size: 14px;
-  }
-  .populaires-cards .card-subtitle {
-    font-size: 13px;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */
