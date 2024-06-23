@@ -37,73 +37,8 @@ a {
  width: 100%;
 }
 
-.section-title {
- margin: 0;
- font-size: $title-font-size /* 22px */;
-}
-
-.card-title {
- font-size: 16px;
-}
-
-.euro {
- font-weight: 700;
-}
-
-/* Le code ci-dessous correspond à la version responsive uniquement */
-
-/****** Media queries ***********/
-/* Medium devices (tablets, less/equal than 1024px) */
-
-
-/* Tablet */
 @media (min-width: 767.98px) {
-
-/*********** Commun ************/
-
-  .populaires-cards, .hebergements-cards, .activites-cards {
-    flex-direction: column;
-  }
-  .main-container {
-    display: block;
-    padding: 0;
-  }
- 
-/********* Heberg&pop **********/
-
- .hebergements-and-populaires {
-   flex-direction: column-reverse;
- }
-
 }
-
 
 @media (min-width: 1024px) {
-
-  /*********** Commun ************/
-  
-   .hebergements, .populaires {
-     width: 100%;
-   }
-  
-  /********* Heberg&pop **********/
-  
-   .hebergements-and-populaires {
-     flex-direction: column;
-   }
-  
-  /****** Populaires ***********/
-  
-   .populaires-cards {
-     flex-direction: row;
-   }
-   .populaires-cards a {
-     height: 146px;
-   }
-   .populaires-cards .card-title {
-     font-size: 14px;
-   }
-   .populaires-cards .card-subtitle {
-     font-size: 13px;
-   }
-  }
+}
