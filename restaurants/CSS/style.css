@@ -472,8 +472,8 @@ on positionne les deux icon au même endroit pour faire l'animation
   height: 16px;
   position: relative;
   position: absolute;
-  left: 295px;
-  top: 5px;
+  left: 285px;
+  top: 22px;
   right: 24px;
   bottom: 33px;
 }
