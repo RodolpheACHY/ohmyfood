@@ -542,8 +542,6 @@ img {
   object-fit: cover;
 }
 
-/*# sourceMappingURL=style.css.map */
-
 /*
 on applique notre transition sur cette classe commune 
 */
@@ -551,36 +549,42 @@ on applique notre transition sur cette classe commune
   transition: all 0.5s ease-in-out;
   font-size: 20px;
 }
+
 /*
 par défaut on est en noir sur le coeur vide
 */
 .custom-icon:before {
   color: black;
 }
+
 /*
  couleur du coeur rempli
 */
 .fa-solid.custom-icon:before {
   color: #9356DC;
 }
+
 /*
 le coeur rempli est masqué par défaut
 */
 .fa-solid.custom-icon {
   opacity: 0;
 }
+
 /*
 le coeur vide est visible par défaut
 */
 .fa-regular.custom-icon {
   opacity: 1;
 }
+
 /*
 sur le hover, on masque le coeur vide et on affiche le coeur rempli
 */
 .fa-solid.custom-icon:hover {
   opacity: 1;
 }
+
 .fa-regular.custom-icon:hover {
   opacity: 0;
 }
@@ -588,14 +592,16 @@ sur le hover, on masque le coeur vide et on affiche le coeur rempli
 /*
 on positionne les deux icon au même endroit pour faire l'animation
 */
-
 .custom-icon-wrapper {
-  width:16px;
+  width: 16px;
   height: 16px;
   position: relative;
 }
+
 .custom-icon-wrapper .custom-icon {
   position: absolute;
   top: 0;
   left: 0;
 }
+
+/*# sourceMappingURL=style.css.map */
