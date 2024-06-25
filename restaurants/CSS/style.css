@@ -227,6 +227,29 @@
   line-height: 1.125rem;
   font-style: normal;
 }
+.menus__card-check-button {
+  background-color: #99E2D0;
+  border: 1px solid #99E2D0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 59px;
+  height: 69px;
+  gap: 0px;
+  border-radius: 0px 15px 15px 0px;
+  opacity: 0px;
+}
+.menus__card-icon-check-button-circle {
+  min-width: 30px; /* Largeur du cercle */
+  min-height: 30px;
+  margin-right: 10px;
+  border-radius: 50%; /* Assure que le cercle est arrondi */
+  background-color: #fdfeff; /* Couleur de fond du cercle */
+  border: none;
+  display: flex; /* Permet d'aligner l icone check au centre */
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+}
 .menus__euro-sign-container {
   display: flex;
   align-items: center;
