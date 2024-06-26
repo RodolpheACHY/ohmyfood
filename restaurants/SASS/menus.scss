@@ -118,24 +118,47 @@
   }
 
   &__card-content {
+    // on ajoute artificiellement l'encombrement de la pastille verte
+    width: calc(100% + 59px);
+    transition: all 1s ease-in-out;
+    &:hover {
+      // on récupère la largeur naturelle
+      width: 100%;
+    }
+   &-text {
+    display: flex;
+    width: 100%;
+    padding-right: 10px;
+   
+   }
+    &:hover {
+      .menus__card-check-button {
+        // animation pastille verte
+        transform: translateX(0);
+      }
+      .menus__card-content-text {
+        // pour calculer l'encombrement de la pastille verte
+        width: calc(100% - 59px);
+       }
+    }
     display: flex;
     flex-direction: row;
-    width: 100%;
-    padding-top: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    padding-left: 11px;
-    justify-content: space-between;
   }
 
   &__card-descript-text {
     display: flex;
+    // encombrement pastille verte - l'espace nécessaire pour afficher et caler le prix à droite
+    width: calc(100% - 35px);
+    transition: all 1s ease-in-out;
     flex-direction: column;
     gap: 5px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-left: 11px;
   }
 
   &__card-title {
-    width: 287px;
     height: 21px;
     font-size: $body-highlight-font-size;
     font-weight: $body-font-weight;
@@ -149,7 +172,6 @@
   }
 
   &__card-subtitle {
-    width: 287px;
     height: 19px;
     font-size: $menu-card-subtitle-font-size;
     font-weight: $menu-card-subtitle-font-weight;
@@ -163,10 +185,8 @@
   }
 
   &__card-price {
-    display: flex;
-    flex-direction: row;
-    transform: translateY(12px);
-    //gap: 12px;
+    // positionnement avec conteneur relatif
+    position: relative;
   }
 
   &__card-number {
@@ -175,6 +195,13 @@
     font-weight: $title-font-weight;
     line-height: $menu-card-subtitle-line-height;
     font-style: normal;
+    // positionnement avec conteneur relatif en absolute
+    position: absolute;
+    bottom: -4px;
+    p {
+      // pour que le signe euros ne passe pas à la ligne lors de l'animation
+      white-space: nowrap;
+    }
   }
 
   &__card-check-button {
@@ -186,22 +213,9 @@
     width: 59px;
     height: 69px;
     gap: 0px;
+    transition: all 1s ease-in-out;
     border-radius: 0px 15px 15px 0px;
-    //opacity: 0px;
-    &:hover {
-      &::after {
-        transform: translateX(0);
-      }
-    }
-
-    &::after {
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      transform: translateX(100%);
-      transition: transform 0.3s ease;
-    }
+    transform: translateX(60px);
   }
 
   &__card-icon-check-button-circle {
