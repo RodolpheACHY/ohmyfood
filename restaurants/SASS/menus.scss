@@ -187,12 +187,21 @@
     height: 69px;
     gap: 0px;
     border-radius: 0px 15px 15px 0px;
-    opacity: 0px;
- 
-  }
+    //opacity: 0px;
+    &:hover {
+      &::after {
+        transform: translateX(0);
+      }
+    }
 
-  &__card-icon-check-button {
-
+    &::after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      transform: translateX(100%);
+      transition: transform 0.3s ease;
+    }
   }
 
   &__card-icon-check-button-circle {
@@ -205,6 +214,11 @@
     display: flex; /* Permet d'aligner l icone check au centre */
     justify-content: center; /* Centre horizontalement */
     align-items: center; /* Centre verticalement */
+  }
+
+  &__card-icon-check-button {
+    color: $validate-menu-color;
+    font-size: large;
   }
 
   &__euro-sign-container {
