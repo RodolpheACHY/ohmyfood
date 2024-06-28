@@ -221,16 +221,21 @@
   &__card-icon-check-button-circle {
     min-width: 30px; /* Largeur du cercle */
     min-height: 30px; 
-    margin-right: 10px;
+    // margin-right: 10px;
     border-radius: 50%; /* Assure que le cercle est arrondi */
     background-color: #fdfeff; /* Couleur de fond du cercle */
     border: none;
     display: flex; /* Permet d'aligner l icone check au centre */
     justify-content: center; /* Centre horizontalement */
     align-items: center; /* Centre verticalement */
+    
+   /*  &__card-icon-check-button-circle > &__card-icon-check-button {
+      color: $validate-menu-color;
+      font-size: large;
+    }  */
   }
 
-  &__card-icon-check-button {
+  &__card-icon-check-button-circle > &__card-icon-check-button {
     color: $validate-menu-color;
     font-size: large;
   }

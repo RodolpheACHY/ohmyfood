@@ -175,22 +175,37 @@
   position: relative;
 }
 .menus__card-content {
+  width: calc(100% + 59px);
+  transition: all 1s ease-in-out;
   display: flex;
   flex-direction: row;
+}
+.menus__card-content:hover {
   width: 100%;
-  padding-top: 15px;
-  padding-right: 15px;
-  padding-bottom: 15px;
-  padding-left: 11px;
-  justify-content: space-between;
+}
+.menus__card-content-text {
+  display: flex;
+  width: 100%;
+  padding-right: 10px;
+}
+.menus__card-content:hover .menus__card-check-button {
+  transform: translateX(0);
+}
+.menus__card-content:hover .menus__card-content-text {
+  width: calc(100% - 59px);
 }
 .menus__card-descript-text {
   display: flex;
+  width: calc(100% - 35px);
+  transition: all 1s ease-in-out;
   flex-direction: column;
   gap: 5px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+  padding-left: 11px;
 }
 .menus__card-title {
-  width: 287px;
   height: 21px;
   font-size: 1.125rem;
   font-weight: 500;
@@ -203,7 +218,6 @@
   white-space: nowrap;
 }
 .menus__card-subtitle {
-  width: 287px;
   height: 19px;
   font-size: 0.94rem;
   font-weight: 300;
@@ -216,9 +230,7 @@
   margin-bottom: 0px;
 }
 .menus__card-price {
-  display: flex;
-  flex-direction: row;
-  transform: translateY(12px);
+  position: relative;
 }
 .menus__card-number {
   text-align: center;
@@ -226,6 +238,11 @@
   font-weight: 700;
   line-height: 1.125rem;
   font-style: normal;
+  position: absolute;
+  bottom: -4px;
+}
+.menus__card-number p {
+  white-space: nowrap;
 }
 .menus__card-check-button {
   background-color: #99E2D0;
@@ -236,31 +253,25 @@
   width: 59px;
   height: 69px;
   gap: 0px;
+  transition: all 1s ease-in-out;
   border-radius: 0px 15px 15px 0px;
-}
-.menus__card-check-button:hover::after {
-  transform: translateX(0);
-}
-.menus__card-check-button::after {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  transform: translateX(100%);
-  transition: transform 0.3s ease;
+  transform: translateX(60px);
 }
 .menus__card-icon-check-button-circle {
   min-width: 30px; /* Largeur du cercle */
   min-height: 30px;
-  margin-right: 10px;
   border-radius: 50%; /* Assure que le cercle est arrondi */
   background-color: #fdfeff; /* Couleur de fond du cercle */
   border: none;
   display: flex; /* Permet d'aligner l icone check au centre */
   justify-content: center; /* Centre horizontalement */
   align-items: center; /* Centre verticalement */
+  /*  &__card-icon-check-button-circle > &__card-icon-check-button {
+     color: $validate-menu-color;
+     font-size: large;
+   }  */
 }
-.menus__card-icon-check-button {
+.menus__card-icon-check-button-circle > .menus__card-icon-check-button {
   color: #99E2D0;
   font-size: large;
 }
