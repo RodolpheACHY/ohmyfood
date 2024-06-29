@@ -266,10 +266,10 @@
   display: flex; /* Permet d'aligner l icone check au centre */
   justify-content: center; /* Centre horizontalement */
   align-items: center; /* Centre verticalement */
-  /*  &__card-icon-check-button-circle > &__card-icon-check-button {
-     color: $validate-menu-color;
-     font-size: large;
-   }  */
+  /* &__card-icon-check-button-circle > &__card-icon-check-button {
+    color: $validate-menu-color;
+    font-size: large;
+  } */
 }
 .menus__card-icon-check-button-circle > .menus__card-icon-check-button {
   color: #99E2D0;
