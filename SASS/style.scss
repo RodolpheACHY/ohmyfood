@@ -50,7 +50,9 @@ img {
 }
 
 
-
+/* 
+pour la page menu 
+*/
 /*
 on applique notre transition sur cette classe commune 
 */
@@ -116,4 +118,70 @@ on positionne les deux icon au même endroit pour faire l'animation
     top: 7px;
     left: 300px;
   }
+}
+
+
+/* 
+pour la page d'accueil 
+*/
+/*
+on applique notre transition sur cette classe commune 
+*/
+.restaurants__custom-icon {
+  transition: all 0.5s ease-in-out;
+  font-size: 20px;
+}
+/*
+par défaut on est en noir sur le coeur vide
+*/
+.restaurants__custom-icon:before {
+  color: black;
+}
+/*
+ couleur du coeur rempli
+*/
+.fa-solid.restaurants__custom-icon:before {
+  color: #9356DC;
+  position: relative;
+  top: -23px;
+}
+/*
+le coeur rempli est masqué par défaut
+*/
+.fa-solid.restaurants__custom-icon {
+  opacity: 0;
+}
+/*
+le coeur vide est visible par défaut
+*/
+.fa-regular.restaurants__custom-icon {
+  opacity: 1;
+}
+/*
+sur le hover, on masque le coeur vide et on affiche le coeur rempli
+*/
+// .fa-solid.custom-icon:hover {
+.fa-solid.restaurants__custom-icon:hover {
+  opacity: 1;
+}
+.fa-regular.restaurants__custom-icon:hover {
+  opacity: 0;
+}
+
+/*
+on positionne les deux icon au même endroit pour faire l'animation
+*/
+
+.restaurants__custom-icon-wrapper {
+  width:16px;
+  height: 16px;
+  position: absolute;
+  right: 25px;
+  bottom: 33px;
+}
+.restaurants__custom-icon-wrapper .restaurants__custom-icon {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-size: 23px;
 }
