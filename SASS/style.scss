@@ -69,6 +69,8 @@ par défaut on est en noir sur le coeur vide
 */
 .fa-solid.custom-icon:before {
   color: #9356DC;
+  position: relative;
+  top: -23px;
 }
 /*
 le coeur rempli est masqué par défaut
