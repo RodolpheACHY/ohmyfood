@@ -1067,17 +1067,20 @@ on positionne les deux icon au même endroit pour faire l'animation
 .custom-icon-wrapper {
   width: 16px;
   height: 16px;
-  position: relative;
   position: absolute;
-  right: 25px;
-  bottom: 33px;
 }
 
 .custom-icon-wrapper .custom-icon {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
+  top: -2px;
+  left: 300px;
   font-size: 23px;
+}
+@media (min-width: 768px) {
+  .custom-icon-wrapper .custom-icon {
+    top: 7px;
+    left: 300px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
