@@ -114,6 +114,10 @@ on positionne les deux icon au même endroit pour faire l'animation
   left: 300px;
   font-size: 23px;
 
+  @media (min-width: 320px) and (max-width: 350px) {
+    left: 270px;
+  } 
+
   @media (min-width: $breakpoint-tablet) {
     top: 7px;
     left: 300px;

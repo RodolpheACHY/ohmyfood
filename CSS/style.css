@@ -1081,6 +1081,11 @@ on positionne les deux icon au même endroit pour faire l'animation
   left: 300px;
   font-size: 23px;
 }
+@media (min-width: 320px) and (max-width: 350px) {
+  .custom-icon-wrapper .custom-icon {
+    left: 270px;
+  }
+}
 @media (min-width: 768px) {
   .custom-icon-wrapper .custom-icon {
     top: 7px;
