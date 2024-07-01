@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ohmyfood</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../CSS/style.css" />
+  </head>
+
+  <body>
+    <div class="main-container">
+      <header class="appBar">
+        <div class="appBar__container-logo">
+          <ul class="appBar__ul">
+            <li>
+              <a href="./../index.html" class="appBar__link-arrow-icon">
+                <i
+                  class="fa-sharp fa-solid-black-link-appBar fa-arrow-left appBar__icon-back-link"
+                >
+                </i>
+              </a>
+              <a href="./../index.html" class="appBar__link-logo">
+                <div class="appBar__logo">ohmyfood</div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <main>
+        <div class="menus__cover-container">
+          <img
+            src="./../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+            alt="Un plat gastronomique composé de légumes verts et de tranches de saumon fumé, joliment présenté sur une assiette blanche, entouré de verres de vin blanc, de pain et d'ustensiles sur une table de restaurant élégamment dressée."
+          />
+        </div>
+        <section id="menus" class="menus">
+          <div class="menus__container-title">
+            <h1 class="menus__title">À la française</h1>
+            <!-- <i
+              class="far fa-thin fa-heart menus__heart-icon"
+              aria-hidden="true"
+            ></i> -->
+            <div class="custom-icon-wrapper">
+              <i class="fa-regular fa-heart custom-icon"></i>
+              <i class="fa-solid fa-heart custom-icon"></i>
+            </div>
+          </div>
+          <div class="menus__menu-containers">
+            <div class="menus__container-subtitle-with-cards">
+              <h2 class="menus__subtitle menus__underline-subtitle">ENTRÉES</h2>
+              <div class="menus__cards">
+                <a href="#">
+                  <article class="menus__card">
+                    <div class="menus__card-content">
+                      <div class="menus__card-content-text">
+                        <div class="menus__card-descript-text">
+                          <h3 class="menus__card-title">
+                            Tartare de poulpe acidulé
+                          </h3>
+                          <p class="menus__card-subtitle">
+                            Aux zestes d'orange
+                          </p>
+                        </div>
+                        <div class="menus__card-price">
+                          <div class="menus__card-number">
+                            <p>
+                              25<i
+                                class="fa-euro-sign fa-solid-euro-sign-menu"
+                                aria-hidden="true"
+                              ></i>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="menus__card-check-button" type="submit">
+                        <div class="menus__card-icon-check-button-circle">
+                          <i
+                            class="fa-solid fa-check menus__card-icon-check-button"
+                          >
+                          </i>
+                        </div>
+                      </button>
+                    </div>
+                  </article>
+                </a>
+                <a href="#">
+                  <article class="menus__card">
+                    <div class="menus__card-content">
+                      <div class="menus__card-content-text">
+                        <div class="menus__card-descript-text">
+                          <h3 class="menus__card-title">
+                            Velouté de légumes d'antan
+                          </h3>
+                          <p class="menus__card-subtitle">
+                            Carotte, panais, topinambour
+                          </p>
+                        </div>
+                        <div class="menus__card-price">
+                          <div class="menus__card-number">
+                            <p>
+                              35<i
+                                class="fa-euro-sign fa-solid-euro-sign-menu"
+                                aria-hidden="true"
+                              ></i>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="menus__card-check-button" type="submit">
+                        <div class="menus__card-icon-check-button-circle">
+                          <i
+                            class="fa-solid fa-check menus__card-icon-check-button"
+                          >
+                          </i>
+                        </div>
+                      </button>
+                    </div>
+                  </article>
+                </a>
+                <a href="#">
+                  <article class="menus__card">
+                    <div class="menus__card-content">
+                      <div class="menus__card-content-text">
+                        <div class="menus__card-descript-text">
+                          <h3 class="menus__card-title">Soupe à l'oignon</h3>
+                          <p class="menus__card-subtitle">Revisitée</p>
+                        </div>
+                        <div class="menus__card-price">
+                          <div class="menus__card-number">
+                            <p>
+                              20<i
+                                class="fa-euro-sign fa-solid-euro-sign-menu"
+                                aria-hidden="true"
+                              ></i>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="menus__card-check-button" type="submit">
+                        <div class="menus__card-icon-check-button-circle">
+                          <i
+                            class="fa-solid fa-check menus__card-icon-check-button"
+                          >
+                          </i>
+                        </div>
+                      </button>
+                    </div>
+                  </article>
+                </a>
+              </div>
+            </div>
+            <div class="menus__container-subtitle-with-cards">
+              <h2 class="menus__subtitle menus__underline-subtitle">PLATS</h2>
+              <div class="menus__cards">
+                <a href="#">
+                  <article class="menus__card">
+                    <div class="menus__card-content">
+                      <div class="menus__card-content-text">
+                        <div class="menus__card-descript-text">
+                          <h3 class="menus__card-title">
+                            Coquilles Saint-Jacques
+                          </h3>
+                          <p class="menus__card-subtitle">
+                            Accompagnées d'une purée de panais
+                          </p>
+                        </div>
+                        <div class="menus__card-price">
+                          <div class="menus__card-number">
+                            <p>
+                              40<i
+                                class="fa-euro-sign fa-solid-euro-sign-menu"
+                                aria-hidden="true"
+                              ></i>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="menus__card-check-button" type="submit">
+                        <div class="menus__card-icon-check-button-circle">
+                          <i
+                            class="fa-solid fa-check menus__card-icon-check-button"
+                          >
+                          </i>
+                        </div>
+                      </button>
+                    </div>
+                  </article>
+                </a>
+                <a href="#">
+                  <article class="menus__card">
+                    <div class="menus__card-content">
+                      <div class="menus__card-content-text">
+                        <div class="menus__card-descript-text">
+                          <h3 class="menus__card-title">Magret de canard</h3>
+                          <p class="menus__card-subtitle">
+                            Et parmentier de pommes de terre
+                          </p>
+                        </div>
+                        <div class="menus__card-price">
+                          <div class="menus__card-number">
+                            <p>
+                              35<i
+                                class="fa-euro-sign fa-solid-euro-sign-menu"
+                                aria-hidden="true"
+                              ></i>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="menus__card-check-button" type="submit">
+                        <div class="menus__card-icon-check-button-circle">
+                          <i
+                            class="fa-solid fa-check menus__card-icon-check-button"
+                          >
+                          </i>
+                        </div>
+                      </button>
+                    </div>
+                  </article>
+                </a>
+                <a href="#">
+                  <article class="menus__card">
+                    <div class="menus__card-content">
+                      <div class="menus__card-content-text">
+                        <div class="menus__card-descript-text">
+                          <h3 class="menus__card-title">
+                            Pigeonneau d’Ille-et-Vilaine
+                          </h3>
+                          <p class="menus__card-subtitle">
+                            Sur son lit de gnocchis aux légumes
+                          </p>
+                        </div>
+                        <div class="menus__card-price">
+                          <div class="menus__card-number">
+                            <p>
+                              44<i
+                                class="fa-euro-sign fa-solid-euro-sign-menu"
+                                aria-hidden="true"
+                              ></i>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="menus__card-check-button" type="submit">
+                        <div class="menus__card-icon-check-button-circle">
+                          <i
+                            class="fa-solid fa-check menus__card-icon-check-button"
+                          >
+                          </i>
+                        </div>
+                      </button>
+                    </div>
+                  </article>
+                </a>
+              </div>
+            </div>
+            <div class="menus__container-subtitle-with-cards">
+              <h2 class="menus__subtitle menus__underline-subtitle">
+                DESSERTS
+              </h2>
+              <div class="menus__cards">
+                <a href="#">
+                  <article class="menus__card">
+                    <div class="menus__card-content">
+                      <div class="menus__card-content-text">
+                        <div class="menus__card-descript-text">
+                          <h3 class="menus__card-title">
+                            Pétales de violettes glacés
+                          </h3>
+                          <p class="menus__card-subtitle">
+                            Et purée de noisettes
+                          </p>
+                        </div>
+                        <div class="menus__card-price">
+                          <div class="menus__card-number">
+                            <p>
+                              18<i
+                                class="fa-euro-sign fa-solid-euro-sign-menu"
+                                aria-hidden="true"
+                              ></i>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="menus__card-check-button" type="submit">
+                        <div class="menus__card-icon-check-button-circle">
+                          <i
+                            class="fa-solid fa-check menus__card-icon-check-button"
+                          >
+                          </i>
+                        </div>
+                      </button>
+                    </div>
+                  </article>
+                </a>
+                <a href="#">
+                  <article class="menus__card">
+                    <div class="menus__card-content">
+                      <div class="menus__card-content-text">
+                        <div class="menus__card-descript-text">
+                          <h3 class="menus__card-title">Fondant au chocolat</h3>
+                          <p class="menus__card-subtitle">Revisité</p>
+                        </div>
+                        <div class="menus__card-price">
+                          <div class="menus__card-number">
+                            <p>
+                              22<i
+                                class="fa-euro-sign fa-solid-euro-sign-menu"
+                                aria-hidden="true"
+                              ></i>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="menus__card-check-button" type="submit">
+                        <div class="menus__card-icon-check-button-circle">
+                          <i
+                            class="fa-solid fa-check menus__card-icon-check-button"
+                          >
+                          </i>
+                        </div>
+                      </button>
+                    </div>
+                  </article>
+                </a>
+                <a href="#">
+                  <article class="menus__card">
+                    <div class="menus__card-content">
+                      <div class="menus__card-content-text">
+                        <div class="menus__card-descript-text">
+                          <h3 class="menus__card-title">
+                            Millefeuille croustillant
+                          </h3>
+                          <p class="menus__card-subtitle">
+                            Myrtilles et pâte d’amande
+                          </p>
+                        </div>
+                        <div class="menus__card-price">
+                          <div class="menus__card-number">
+                            <p>
+                              23<i
+                                class="fa-euro-sign fa-solid-euro-sign-menu"
+                                aria-hidden="true"
+                              ></i>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="menus__card-check-button" type="submit">
+                        <div class="menus__card-icon-check-button-circle">
+                          <i
+                            class="fa-solid fa-check menus__card-icon-check-button"
+                          >
+                          </i>
+                        </div>
+                      </button>
+                    </div>
+                  </article>
+                </a>
+              </div>
+            </div>
+          </div>
+          <a class="menus__button-container" href="#">
+            <button class="menus__button">Commander</button>
+          </a>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <h3 class="footer__title">ohmyfood</h3>
+          <div class="footer__subtitle-container">
+            <ul class="footer__ul">
+              <li>
+                <a class="footer__a" href="#"
+                  ><i
+                    class="fa-solid fa-utensils footer__utensils-icon"
+                    style="color: #ffffff"
+                  ></i
+                  >Proposer un restaurant</a
+                >
+              </li>
+              <li class="footer__li">
+                <a class="footer__a" href="#"
+                  ><i
+                    class="fa-solid__handshake-icon-footer fa-handshake-angle fa-rotate-by footer__handshake-icon"
+                  ></i
+                  >Devenir partenaire</a
+                >
+              </li>
+              <li><a class="footer__a" href="#">Mentions légales</a></li>
+              <li class="footer__li">
+                <a class="footer__a" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
