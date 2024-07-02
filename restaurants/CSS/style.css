@@ -362,6 +362,9 @@ img {
 .footer {
   background-color: #353535;
   padding: 22px 25px;
+  /* &__container a {
+    width: auto;
+  } */
   /* &__li {
     width: 200px;
 
@@ -376,6 +379,9 @@ img {
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
+}
+.footer__container a {
+  width: auto;
 }
 .footer__title {
   width: 137.582px;

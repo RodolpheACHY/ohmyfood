@@ -7,8 +7,16 @@
       width: 100%;
       flex-direction: column;
       align-items: flex-start;
-      gap: 16px; 
+      gap: 16px;
+
+      & a {
+        width: auto;
+      }
     }
+
+    /* &__container a {
+      width: auto;
+    } */
   
     &__title {
       width: 137.582px;
