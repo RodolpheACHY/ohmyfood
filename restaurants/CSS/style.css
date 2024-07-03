@@ -300,6 +300,7 @@
   border: 0px;
   position: relative;
   z-index: 1;
+  cursor: pointer;
 }
 .menus__button:hover::after {
   opacity: 1;

@@ -122,6 +122,7 @@
   margin-left: 82px;
   margin-right: 75px;
   margin-bottom: 57px;
+  cursor: pointer;
   /* Shadow/Button */
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
   /* Text button */
@@ -826,6 +827,7 @@
   border: 0px;
   position: relative;
   z-index: 1;
+  cursor: pointer;
 }
 .menus__button:hover::after {
   opacity: 1;

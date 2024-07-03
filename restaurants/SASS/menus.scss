@@ -267,6 +267,7 @@
     border: 0px;
     position: relative;
     z-index: 1;
+    cursor: pointer;
     &:hover { 
       &::after {
           opacity: 1;
