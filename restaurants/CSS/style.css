@@ -176,7 +176,7 @@
 }
 .menus__card-content {
   width: calc(100% + 59px);
-  transition: all 1s ease-in-out;
+  transition: all 0.3s ease;
   display: flex;
   flex-direction: row;
 }
@@ -197,7 +197,7 @@
 .menus__card-descript-text {
   display: flex;
   width: calc(100% - 35px);
-  transition: all 1s ease-in-out;
+  transition: all 0.3s ease;
   flex-direction: column;
   gap: 5px;
   padding-top: 15px;
@@ -253,7 +253,7 @@
   width: 59px;
   height: 69px;
   gap: 0px;
-  transition: all 1s ease-in-out;
+  transition: all 0.3s ease;
   border-radius: 0px 15px 15px 0px;
   transform: translateX(60px);
 }

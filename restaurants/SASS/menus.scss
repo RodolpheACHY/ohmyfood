@@ -120,7 +120,7 @@
   &__card-content {
     // on ajoute artificiellement l'encombrement de la pastille verte
     width: calc(100% + 59px);
-    transition: all 1s ease-in-out;
+    transition: all 0.3s ease;
     &:hover {
       // on récupère la largeur naturelle
       width: 100%;
@@ -149,7 +149,7 @@
     display: flex;
     // encombrement pastille verte - l'espace nécessaire pour afficher et caler le prix à droite
     width: calc(100% - 35px);
-    transition: all 1s ease-in-out;
+    transition: all 0.3s ease;
     flex-direction: column;
     gap: 5px;
     padding-top: 15px;
@@ -213,7 +213,7 @@
     width: 59px;
     height: 69px;
     gap: 0px;
-    transition: all 1s ease-in-out;
+    transition: all 0.3s ease;
     border-radius: 0px 15px 15px 0px;
     transform: translateX(60px);
   }
