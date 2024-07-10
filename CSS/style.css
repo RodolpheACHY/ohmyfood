@@ -3,6 +3,8 @@
 /* Design System*/
 /* Colors */
 /* Text Configuration*/
+
+
 .appBar {
   justify-content: center;
   align-items: center;
@@ -690,11 +692,21 @@
   height: 3px; /* Spécifiez l'épaisseur du trait ici */
   background-color: #99E2D0; /* ou toute autre couleur de votre choix */
 }
+.wrapper_menus__cards {
+  overflow: hidden;
+  height: auto;
+}
 .menus__cards {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  /*transform: translateY(-250px);
+  transition: all 1s ease-in-out;*/
 }
+/*.menus__cards.appear {
+  transform: translateY(0px);
+}*/
+
 .menus__card {
   display: flex;
   flex-direction: column;
@@ -1176,3 +1188,28 @@ on positionne les deux icon au même endroit pour faire l'animation
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.box {
+  animation: menu 1.5s 100ms both;
+}
+
+/** Keyframe Titre et Blocs Menu  passant d'invisibles à visibles - Page restos **/
+@keyframes menu {
+  from {      /** échelle **/
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.functioning__article-item .fa-store {
+  color: #9356dc;
+}
+.footer .footer__utensils-icon {
+  color: white
+}
