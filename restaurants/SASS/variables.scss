@@ -15,6 +15,9 @@
  $gradient-color: linear-gradient(135deg, $color-start, $color-end);
  $menu-button-gradient: linear-gradient(193deg, $main-color -11.44%, $secondary-gradient-button-color 123.93%);
 
+ //loader
+ $cd-txt: #6300a0;
+
  /* Text Configuration*/
  
  $logo-font-weight: 400;
@@ -57,3 +60,6 @@
  // breakpoints
  $breakpoint-tablet: 768px;
  $breakpoint-desktop: 1024px;
+
+
+ 
