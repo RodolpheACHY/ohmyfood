@@ -43,7 +43,7 @@
 
   }
 
-  &__button {
+  & &__button {
     width: 218px;
     height: 50px;
     //background: var(--Button-Gradient, linear-gradient(193deg, var(--main-color) -11.44%, var(--secondary-gradient-button-color) 123.93%));
@@ -51,6 +51,7 @@
     border-radius: 25px;
     color: $secondary-bg-color;
     text-align: center;
+  //  line-height: 50px;    /* Centre le texte verticalement en égalisant avec la hauteur. Ca Marche pour 1 seule ligne !!!! */
     border: 0px;
     margin-left: 82px;
     margin-right: 75px;
@@ -85,6 +86,14 @@
       /* Shadow/Button */
       box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.35);
     }
+
+      & span {
+        //display: table-cell;    /* Crée une cellule de table */
+        //vertical-align: middle; /* Centre verticalement le contenu de la cellule */
+        text-align: center;     /* Centre horizontalement le texte */
+        line-height: 50px;
+        color: $secondary-bg-color;
+      }
   }
 
   @media (min-width: $breakpoint-desktop) {

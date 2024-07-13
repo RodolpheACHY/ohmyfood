@@ -41,6 +41,10 @@
     &:last-child {
       margin-bottom: 68px;
     }
+
+    & .fa-store {
+      color: $main-color;
+    }
   }
 
   &__article-text {

@@ -256,7 +256,7 @@
    /* Text button */
     font-size: $body-font-size;
     font-weight: $body-font-weight;
-    line-height: $body-line-height;
+    line-height: 50px;
     font-style: normal;
     text-align: center;
     border-radius: 25px;
@@ -288,6 +288,12 @@
       /* Shadow/Button */
       box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.35);
     }
+
+      & span {
+        text-align: center;     /* Centre horizontalement le texte */
+        line-height: 50px;
+        color: $secondary-bg-color;
+      }
   }
 
   @media (min-width: $breakpoint-tablet) {

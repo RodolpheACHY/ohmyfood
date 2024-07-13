@@ -115,7 +115,7 @@
   margin-right: 26px;
   margin-bottom: 27px;
 }
-.hero__button {
+.hero .hero__button {
   width: 218px;
   height: 50px;
   background: linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%);
@@ -137,10 +137,10 @@
   position: relative;
   z-index: 1;
 }
-.hero__button:hover::after {
+.hero .hero__button:hover::after {
   opacity: 1;
 }
-.hero__button::after {
+.hero .hero__button::after {
   content: "";
   position: absolute;
   top: 0;
@@ -154,6 +154,11 @@
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%), linear-gradient(201deg, #9356DC -5.2%, #FF79DA 110.74%);
   /* Shadow/Button */
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.35);
+}
+.hero .hero__button span {
+  text-align: center; /* Centre horizontalement le texte */
+  line-height: 50px;
+  color: #ffffff;
 }
 @media (min-width: 1024px) {
   .hero {
@@ -216,6 +221,9 @@
 }
 .functioning__article-item:last-child {
   margin-bottom: 68px;
+}
+.functioning__article-item .fa-store {
+  color: #9356DC;
 }
 .functioning__article-text {
   line-height: 1.188rem;
@@ -481,6 +489,9 @@
 }
 .footer__utensils-icon {
   margin-right: 11px;
+}
+.footer .footer__utensils-icon {
+  color: #F6F6F6;
 }
 .footer__handshake-icon {
   margin-right: 5px;
@@ -873,7 +884,7 @@
   /* Text button */
   font-size: 1rem;
   font-weight: 500;
-  line-height: 1.188rem;
+  line-height: 50px;
   font-style: normal;
   text-align: center;
   border-radius: 25px;
@@ -903,6 +914,11 @@
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%), linear-gradient(201deg, #9356DC -5.2%, #FF79DA 110.74%);
   /* Shadow/Button */
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.35);
+}
+.menus__button span {
+  text-align: center; /* Centre horizontalement le texte */
+  line-height: 50px;
+  color: #ffffff;
 }
 @media (min-width: 768px) {
   .menus__container-title {
@@ -949,6 +965,9 @@ img {
   padding: 22px 25px;
   /* &__container a {
     width: auto;
+  } */
+  /* & &__utensils-icon {
+    color: $secondary-bg-color;
   } */
   /* &__li {
     width: 200px;
