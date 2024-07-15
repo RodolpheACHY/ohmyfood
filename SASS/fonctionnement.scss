@@ -149,13 +149,11 @@
     }
 
     &__article-item {
-      flex: 1 1 calc(33.333% - 25px);  
+      //flex: 1 1 calc(33.333% - 25px);  
         &:last-child {
           margin-bottom: 0px;
         }
       }
   }
-
-
 
 }

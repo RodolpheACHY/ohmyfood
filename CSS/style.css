@@ -312,9 +312,6 @@
     width: 100%;
     max-width: 100%;
   }
-  .functioning__article-item {
-    flex: 1 1 calc(33.333% - 25px);
-  }
   .functioning__article-item:last-child {
     margin-bottom: 0px;
   }
