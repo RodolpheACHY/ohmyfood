@@ -56,8 +56,6 @@
     font-variant: normal;
     line-height: 1;
     text-rendering: auto;
-    transform: rotate(var(--fa-rotate-angle, none)) scale(0.7);
-    transform-origin: center; /* Maintient l'icône au centre pendant le redimensionnement */
 }
 
 .footer__a {
