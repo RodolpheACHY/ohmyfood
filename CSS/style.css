@@ -550,8 +550,6 @@
   font-variant: normal;
   line-height: 1;
   text-rendering: auto;
-  transform: rotate(var(--fa-rotate-angle, none)) scale(0.7);
-  transform-origin: center; /* Maintient l'icône au centre pendant le redimensionnement */
 }
 
 .loader-container {
@@ -563,7 +561,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgb(255, 255, 255);
   z-index: 1000;
   animation: fadeOut 2s 2s forwards;
 }
@@ -971,7 +969,6 @@ img {
   object-fit: cover;
   width: 100%;
   height: 275px;
-  background: url(<path-to-image>) lightgray 50%/cover no-repeat;
 }
 
 .fa-solid-euro-sign-menu {
@@ -1096,8 +1093,6 @@ img {
   font-variant: normal;
   line-height: 1;
   text-rendering: auto;
-  transform: rotate(var(--fa-rotate-angle, none)) scale(0.7);
-  transform-origin: center; /* Maintient l'icône au centre pendant le redimensionnement */
 }
 
 /****** General ***********/
