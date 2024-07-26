@@ -709,7 +709,6 @@
 .menus__title {
   width: auto;
   height: 27px;
-  color: var(--Black, #101010);
   font-family: "Shrikhand", sans-serif;
   font-size: 1.75rem;
   font-style: normal;

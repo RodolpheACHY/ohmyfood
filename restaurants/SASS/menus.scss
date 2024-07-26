@@ -31,7 +31,6 @@
   &__title {
     width: auto;
     height: 27px;
-    color: var(--Black, #101010);
     font-family: $title-font-family;
     font-size:  $menu-title-font-size;
     font-style: normal;
@@ -167,7 +166,7 @@
 
   &__card-descript-text {
     display: flex;
-    // encombrement pastille verte - l'espace nécessaire pour afficher et caler le prix à droite
+    // encombrement pastille verte - l'espace nécessaire pour afficher et caler le prix à droite  (essentiellement pour la resolution mobile à cause du manque d'espace sinon une partie du prix n'apparait pas)
     width: calc(100% - 35px);
     transition: all 0.3s ease;
     flex-direction: column;
