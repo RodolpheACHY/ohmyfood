@@ -68,8 +68,8 @@ cd ohmyfood
 Compiler le SASS :
 sass sass/main.scss css/style.css --watch
 
-🤝 Contact
+## 🤝 Contact
 Pour toute question ou collaboration :
 
-📬 Email : ton email
-💼 Portfolio : ton portfolio
+📬 Email : rod23_reseaux@yahoo.fr
+💼 Portfolio : en cours de construction
