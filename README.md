@@ -60,16 +60,19 @@ Ce projet met l’accent sur une intégration soignée, des animations CSS avanc
 ---
 
 ## 🔧 Installation
-
+```
 Clone le projet :
 git clone https://github.com/RodolpheACHY/ohmyfood.git
 cd ohmyfood
 
 Compiler le SASS :
 sass sass/main.scss css/style.css --watch
+```
 
 ## 🤝 Contact
+```
 Pour toute question ou collaboration :
 
 📬 Email : rod23_reseaux@yahoo.fr
 💼 Portfolio : en cours de construction
+```
