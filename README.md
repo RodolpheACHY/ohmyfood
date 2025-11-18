@@ -71,9 +71,8 @@ sass sass/main.scss css/style.css --watch
 ```
 
 ## 🤝 Contact
-```
-Pour toute question ou collaboration :
 
-📬 Email : rod23_reseaux@yahoo.fr
-💼 Portfolio : en cours de construction
-```
+Pour en savoir plus ou échanger autour du projet :
+
+- Email : *rod23_reseaux@yahoo.fr*  
+- Portfolio : en cours de création
