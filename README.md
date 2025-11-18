@@ -32,21 +32,22 @@ Ce projet met l’accent sur une intégration soignée, des animations CSS avanc
 /
 │── index.html
 │── restaurants/
-│ ├── la-note-enchantee.html
-│ ├── a-la-francaise.html
-│ ├── la-palettedugout.html
-│ └── le-delicedessens.html
+|   ├── SASS/
+|   ├── CSS/
+│   ├── la-note-enchantee.html
+│   ├── a-la-francaise.html
+│   ├── la-palettedugout.html
+│   └── le-delicedessens.html
 │
-├── assets/
-│ ├── images/
-│ └── icons/
+├── images/
+│    ├── restaurants/
+│    └── logo/
 │
-└── sass/
-├── base/
-├── components/
-├── layouts/
-├── pages/
-└── main.scss
+├── SASS/
+├── CSS/
+├── README.md
+├── package.json
+└── package-lock.json
 
 ```
 
